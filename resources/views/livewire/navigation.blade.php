@@ -1,3 +1,4 @@
-<div>
-    {{-- Close your eyes. Count to one. That is how long forever feels. --}}
+<link rel="stylesheet" href="{{ asset('css/navigation.css') }}">
+<div class="navigation">
+    <img src="" alt="">
 </div>

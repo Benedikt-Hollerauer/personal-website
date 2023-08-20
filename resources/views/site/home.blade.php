@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Benedikt Hollerauer</title>
     </head>
-    <body class="antialiased">
-        home
+    <body>
+        
     </body>
 </html>
