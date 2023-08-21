@@ -11,19 +11,19 @@
     </head>
     <body style="margin: 0; padding: 0;">
         <div class="home-container">
-            <div class="top center-items">
+            <div class="top navigation-item center-items">
                 <x-navigation-arrow :rotation="NavigationArrowDirection::UP"/>
             </div>
-            <div class="left center-items">
+            <div class="left navigation-item center-items">
                 <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT"/>
             </div>
             <div class="main center-items">
                 main
             </div>
-            <div class="right center-items">
+            <div class="right navigation-item center-items">
                 <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT"/>
             </div>
-            <div class="bottom center-items">
+            <div class="bottom navigation-item center-items">
                 <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN"/>
             </div>
         </div>

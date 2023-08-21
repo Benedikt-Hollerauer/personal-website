@@ -9,8 +9,8 @@ use Illuminate\View\Component;
 
 class NavigationArrow extends Component {
     public NavigationArrowDirection $rotation;
-    
-    public function __construct($rotation) {
+
+    public function __construct(NavigationArrowDirection $rotation) {
         $this->rotation = $rotation;
     }
 

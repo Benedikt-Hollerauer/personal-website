@@ -3,18 +3,11 @@
     height: 100vh;
     display: grid;
     grid-template-areas:
-        "top top top"
+        ". top ."
         "left main right"
-        "bottom bottom bottom";
-    grid-template-columns: 10% 80% 10%;
+        ". bottom .";
+    grid-template-columns: 5% 90% 5%;
     grid-template-rows: 10% 80% 10%;
-}
-
-.center-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
 }
 
 .top { grid-area: top; }

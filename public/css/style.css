@@ -1,2 +1,9 @@
 @import url("home.css");
 @import url("navigation-arrow.css");
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
