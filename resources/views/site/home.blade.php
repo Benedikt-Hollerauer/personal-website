@@ -9,10 +9,23 @@
         <link rel="stylesheet" href="{{asset('css/style.css')}}">
         <title>Benedikt Hollerauer</title>
     </head>
-    <body>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::UP->getDegreeForRotation()"/>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT->getDegreeForRotation()"/>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN->getDegreeForRotation()"/>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT->getDegreeForRotation()"/>
+    <body style="margin: 0; padding: 0;">
+        <div class="home-container">
+            <div class="top center-items">
+                <x-navigation-arrow :rotation="NavigationArrowDirection::UP"/>
+            </div>
+            <div class="left center-items">
+                <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT"/>
+            </div>
+            <div class="main center-items">
+                main
+            </div>
+            <div class="right center-items">
+                <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT"/>
+            </div>
+            <div class="bottom center-items">
+                <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN"/>
+            </div>
+        </div>
     </body>
 </html>
