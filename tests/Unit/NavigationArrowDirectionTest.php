@@ -6,27 +6,37 @@ use PHPUnit\Framework\TestCase;
 use App\Helper\NavigationArrowDirection;
 
 class NavigationArrowDirectionTest extends TestCase {
-    public function test_getDegreeForRotation_UP(): void {
-        $rotationDegree = NavigationArrowDirection::UP
+    private function setUpGetDegreeForRotationTests(NavigationArrowDirection $navigationArrowDirection, int $shouldBeRotation) {
+        $rotationDegree = $navigationArrowDirection
             ->getDegreeForRotation();
-        $this->assertTrue($rotationDegree == 180);
+        $this->assertTrue($rotationDegree == $shouldBeRotation);
+    }
+
+    public function test_getDegreeForRotation_UP(): void {
+        $this->setUpGetDegreeForRotationTests(
+            NavigationArrowDirection::UP,
+            180
+        );
     }
     
     public function test_getDegreeForRotation_RIGHT(): void {
-        $rotationDegree = NavigationArrowDirection::RIGHT
-            ->getDegreeForRotation();
-        $this->assertTrue($rotationDegree == 270);
+        $this->setUpGetDegreeForRotationTests(
+            NavigationArrowDirection::RIGHT,
+            270
+        );
     }
 
     public function test_getDegreeForRotation_DOWN(): void {
-        $rotationDegree = NavigationArrowDirection::DOWN
-            ->getDegreeForRotation();
-        $this->assertTrue($rotationDegree == 0);
+        $this->setUpGetDegreeForRotationTests(
+            NavigationArrowDirection::DOWN,
+            0
+        );
     }
 
     public function test_getDegreeForRotation_LEFT(): void {
-        $rotationDegree = NavigationArrowDirection::LEFT
-            ->getDegreeForRotation();
-        $this->assertTrue($rotationDegree == 90);
+        $this->setUpGetDegreeForRotationTests(
+            NavigationArrowDirection::LEFT,
+            90
+        );
     }
 }
