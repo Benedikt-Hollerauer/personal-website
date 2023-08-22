@@ -18,7 +18,11 @@
                 <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT"/>
             </a>
             <div class="main center-items">
-                content
+                <div class="wrapper">
+                    <div class="typing-demo">
+                        Hi, I`m Bene.
+                    </div>
+                </div>
             </div>
             <a href="{{ url(''); }}" class="right">
                 <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT"/>
