@@ -11,6 +11,7 @@
     </head>
     <body>
         <div class="contact-container">
+            <x-loading-screen/>
             <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
             <div class="main center-items">
                 content

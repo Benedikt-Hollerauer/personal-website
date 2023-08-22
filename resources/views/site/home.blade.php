@@ -9,10 +9,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <title>Benedikt Hollerauer</title>
     </head>
     <body>
+        <x-loading-screen/>
         <div class="home-container">
             <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
             <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"/>
