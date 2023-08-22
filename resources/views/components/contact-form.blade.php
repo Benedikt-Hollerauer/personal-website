@@ -5,6 +5,7 @@
 <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="js/contact.js"></script>
+
 <section id="contact">
     <h1 class="section-header">Contact</h1>
     <div class="contact-wrapper">
@@ -36,16 +37,16 @@
             </ul>
             <hr>
             <ul class="social-media-list">
-                <li><a href="#" target="_blank" class="contact-icon">
+                <li><a href="https://github.com/Benedikt-Hollerauer" target="_blank" class="contact-icon">
                     <i class="fa fa-github" aria-hidden="true"></i></a>
                 </li>
-                <li><a href="#" target="_blank" class="contact-icon">
+                <li><a href="https://leetcode.com/benedikt-hollerauer/" target="_blank" class="contact-icon">
                     <i class="fa fa-codepen" aria-hidden="true"></i></a>
                 </li>
-                <li><a href="#" target="_blank" class="contact-icon">
+                <li><a href="https://www.linkedin.com/in/benedikt-hollerauer-b198b6259/" target="_blank" class="contact-icon">
                     <i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </li>
-                <li><a href="#" target="_blank" class="contact-icon">
+                <li><a href="https://www.instagram.com/bene.hl/" target="_blank" class="contact-icon">
                     <i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </li>
             </ul>
