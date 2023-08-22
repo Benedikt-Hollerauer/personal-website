@@ -1,5 +1,11 @@
-@import url("home.css");
-@import url("navigation-arrow.css");
+@import url("site/home.css");
+@import url("site/contact.css");
+@import url("components/navigation-arrow.css");
+
+html body {
+    margin: 0;
+    padding: 0;
+}
 
 .center-items {
     display: flex;
@@ -7,3 +13,13 @@
     align-items: center;
     vertical-align: middle;
 }
+
+.top { grid-area: top; }
+
+.left { grid-area: left; }
+
+.main { grid-area: main; }
+
+.right { grid-area: right; }
+
+.bottom { grid-area: bottom; }
