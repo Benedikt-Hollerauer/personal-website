@@ -14,10 +14,10 @@
     </head>
     <body>
         <div class="home-container">
-            <a href="{{ url(''); }}" class="top">
+            <a href="/" class="top" wire:navigate>
                 <x-navigation-arrow :rotation="NavigationArrowDirection::UP"/>
             </a>
-            <a href="{{ url(''); }}" class="left">
+            <a href="/" class="left" wire:navigate>
                 <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT"/>
             </a>
             <div class="main center-items">
@@ -31,10 +31,10 @@
                     </div>
                 @endif
             </div>
-            <a href="{{ url(''); }}" class="right">
+            <a href="/" class="right" wire:navigate>
                 <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT"/>
             </a>
-            <a href="{{ url(''); }}/contact"class="bottom">
+            <a href="/contact"class="bottom" wire:navigate>
                 <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN"/>
             </a>
         </div>
