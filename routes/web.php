@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Contact;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,6 @@ Route::get('/', function () {
     return view('site/home');
 });
 
-Route::get('/contact', function () {
-    return view('site/contact');
-});
+Route::get('/contact', [
+    Contact::class, 'show'
+]);
