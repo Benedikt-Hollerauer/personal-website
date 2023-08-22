@@ -12,6 +12,12 @@ class NavigationArrowDirectionTest extends TestCase {
         $this->assertTrue($rotationDegree == $shouldBeRotation);
     }
 
+    private function setUpGetRotationNameTests(NavigationArrowDirection $navigationArrowDirection, string $shouldBeRotation) {
+        $rotationDegree = $navigationArrowDirection
+            ->getRotationName();
+        $this->assertTrue($rotationDegree == $shouldBeRotation);
+    }
+
     public function test_getDegreeForRotation_UP(): void {
         $this->setUpGetDegreeForRotationTests(
             NavigationArrowDirection::UP,
@@ -37,6 +43,34 @@ class NavigationArrowDirectionTest extends TestCase {
         $this->setUpGetDegreeForRotationTests(
             NavigationArrowDirection::LEFT,
             90
+        );
+    }
+
+    public function test_getRotationName_UP(): void {
+        $this->setUpGetRotationNameTests(
+            NavigationArrowDirection::UP,
+            'top'
+        );
+    }
+
+    public function test_getRotationName_RIGHT(): void {
+        $this->setUpGetRotationNameTests(
+            NavigationArrowDirection::RIGHT,
+            'right'
+        );
+    }
+
+    public function test_getRotationName_DOWN(): void {
+        $this->setUpGetRotationNameTests(
+            NavigationArrowDirection::DOWN,
+            'bottom'
+        );
+    }
+
+    public function test_getRotationName_LEFT(): void {
+        $this->setUpGetRotationNameTests(
+            NavigationArrowDirection::LEFT,
+            'left'
         );
     }
 }

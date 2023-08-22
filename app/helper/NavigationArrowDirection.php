@@ -21,4 +21,13 @@ enum NavigationArrowDirection
             self::LEFT => 90
         };
     }
+
+    public function getRotationName(): string {
+        return match ($this) {
+            self::UP => 'top',
+            self::RIGHT => 'right',
+            self::DOWN => 'bottom',
+            self::LEFT => 'left'
+        };
+    }
 }

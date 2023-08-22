@@ -14,12 +14,8 @@
     </head>
     <body>
         <div class="home-container">
-            <a href="/" class="top" wire:navigate>
-                <x-navigation-arrow :rotation="NavigationArrowDirection::UP"/>
-            </a>
-            <a href="/" class="left" wire:navigate>
-                <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT"/>
-            </a>
+            <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
+            <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"/>
             <div class="main center-items">
                 @if(COOKIE::get('alreadyVisited') !== null)
                     <div class="typing-already-visited">
@@ -31,12 +27,8 @@
                     </div>
                 @endif
             </div>
-            <a href="/" class="right" wire:navigate>
-                <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT"/>
-            </a>
-            <a href="/contact"class="bottom" wire:navigate>
-                <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN"/>
-            </a>
+            <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/"/>
+            <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/contact"/>
         </div>
     </body>
 </html>

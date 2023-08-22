@@ -10,8 +10,11 @@ use Illuminate\View\Component;
 class NavigationArrow extends Component {
     public NavigationArrowDirection $rotation;
 
-    public function __construct(NavigationArrowDirection $rotation) {
+    public string $linkLocation;
+
+    public function __construct(NavigationArrowDirection $rotation, string $linkLocation) {
         $this->rotation = $rotation;
+        $this->linkLocation = $linkLocation;
     }
 
     public function render(): View|Closure|string {

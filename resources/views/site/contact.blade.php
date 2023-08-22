@@ -11,9 +11,7 @@
     </head>
     <body>
         <div class="contact-container">
-            <a href="/" class="top" wire:navigate>
-                <x-navigation-arrow :rotation="NavigationArrowDirection::UP"/>
-            </a>
+            <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
             <div class="main center-items">
                 content
             </div>
