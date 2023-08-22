@@ -1,5 +1,8 @@
 <?php
     use App\Helper\NavigationArrowDirection;
+    use Illuminate\Support\Facades\Cookie;
+
+    Cookie::queue(Cookie::make('alreadyVisited', '', 20));
 ?>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -18,11 +21,15 @@
                 <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT"/>
             </a>
             <div class="main center-items">
-                <div class="wrapper">
-                    <div class="typing-demo">
+                @if(COOKIE::get('alreadyVisited') !== null)
+                    <div class="typing-already-visited">
                         Hi, I`m Bene.
                     </div>
-                </div>
+                @else
+                    <div class="typing">
+                        Hi, I`m Bene.
+                    </div>
+                @endif
             </div>
             <a href="{{ url(''); }}" class="right">
                 <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT"/>

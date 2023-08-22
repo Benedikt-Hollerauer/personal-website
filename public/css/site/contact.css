@@ -4,8 +4,7 @@
     display: grid;
     grid-template-areas:
         "top"
-        "main"
-        "bottom";
+        "main";
     grid-template-columns: 100%;
     grid-template-rows: 10% 80% 10%;
 }
