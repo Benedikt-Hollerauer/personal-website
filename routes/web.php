@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Contact;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +14,19 @@ use App\Http\Controllers\Contact;
 |
 */
 
-Route::get('/', function () {
-    return view('site/home');
-});
+Route::get(
+    '/',
+    function () {
+        return view('site/home');
+    }
+);
 
-Route::get('/contact', [
-    Contact::class, 'show'
-]);
+Route::get(
+    '/contact',
+    [ ContactController::class, 'show' ]
+)->name('contact.show');
+
+Route::post(
+    '/contact',
+    [ ContactController::class, 'store' ]
+)->name('contact.store');

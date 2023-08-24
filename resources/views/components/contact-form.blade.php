@@ -11,16 +11,17 @@
 <section id="contact">
     <h1 class="section-header">Contact</h1>
     <div class="contact-wrapper">
-        <!-- Left contact page -->
-        <form id="contact-form" class="form-horizontal" role="form">
+        <!-- Left Contact Form -->
+        <form id="contact-form" class="form-horizontal" role="form" method="POST" action="{{ route('contact.store') }}">
+            @csrf
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" required>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" required>
                 </div>
             </div>
             <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
@@ -30,7 +31,7 @@
                 </div>
             </button>
         </form>
-        <!-- Right contact page -->
+        <!-- Right Contact Information -->
         <div class="direct-contact-container">
             <ul class="contact-list">
                 <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Bavaria, Germany</span></i></li>
