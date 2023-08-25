@@ -28,7 +28,7 @@
                     </div>
                 @endif
             </div>
-            <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/"/>
+            <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/projects"/>
             <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/contact"/>
         </div>
     </body>

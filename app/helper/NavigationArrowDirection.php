@@ -6,8 +6,7 @@ namespace App\Helper;
 
 use PhpParser\Node\Expr\Cast\String_;
 
-enum NavigationArrowDirection
-{   
+enum NavigationArrowDirection {   
     case UP;
     case RIGHT;
     case DOWN;

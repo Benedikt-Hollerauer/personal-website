@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +16,13 @@ use App\Http\Controllers\ContactController;
 |
 */
 
+// home
 Route::get(
     '/',
-    function () {
-        return view('site/home');
-    }
-);
+    [ HomeController::class, 'show' ]
+)->name('home.show');
 
+// contact
 Route::get(
     '/contact',
     [ ContactController::class, 'show' ]
@@ -30,3 +32,9 @@ Route::post(
     '/contact',
     [ ContactController::class, 'store' ]
 )->name('contact.store');
+
+// projects
+Route::get(
+    '/projects',
+    [ ProjectsController::class, 'show' ]
+)->name('projects.show');
