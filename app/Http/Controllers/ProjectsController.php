@@ -7,6 +7,6 @@ use Illuminate\View\View;
 
 class ProjectsController extends Controller {
     public function show(): View {
-        return view('site.projects');
+        return view('sites.projects');
     }
 }

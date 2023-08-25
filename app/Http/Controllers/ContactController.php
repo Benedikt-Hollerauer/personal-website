@@ -10,7 +10,7 @@ use Illuminate\Http\RedirectResponse;
 
 class ContactController extends Controller {
     public function show(): View {
-        return view('site.contact');
+        return view('sites.contact');
     }
 
     public function store(ContactRequest $request): RedirectResponse {
