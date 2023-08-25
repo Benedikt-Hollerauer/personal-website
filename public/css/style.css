@@ -4,10 +4,15 @@
 @import url("components/contact-form.css");
 @import url("components/loading-screen.css");
 @import url("components/navigation-arrow.css");
+@import url("components/projects-slider.css");
 
 html body {
     margin: 0;
     padding: 0;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 .center-items {

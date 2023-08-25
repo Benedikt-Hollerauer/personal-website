@@ -14,7 +14,7 @@
         <x-loading-screen/>
         <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"/>
         <div class="main center-items">
-            projects
+            <x-projects-slider/>
         </div>
     </div>
 </body>
