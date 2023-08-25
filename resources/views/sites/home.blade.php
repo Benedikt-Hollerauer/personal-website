@@ -4,32 +4,23 @@
 
     Cookie::queue(Cookie::make('alreadyVisited', '', 20));
 ?>
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        <title>Benedikt Hollerauer</title>
-    </head>
-    <body>
-        <x-loading-screen/>
-        <div class="home-container">
-            <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
-            <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"/>
-            <div class="main center-items">
-                @if(COOKIE::get('alreadyVisited') !== null)
-                    <div class="typing-already-visited">
-                        Hi, I`m Bene.
-                    </div>
-                @else
-                    <div class="typing">
-                        Hi, I`m Bene.
-                    </div>
-                @endif
-            </div>
-            <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/projects"/>
-            <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/contact"/>
+<x-site-template>
+    <x-slot:siteTitle>Benedikt Hollerauer</x-slot>
+    <div class="home-container">
+        <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
+        <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"/>
+        <div class="main center-items">
+            @if(COOKIE::get('alreadyVisited') !== null)
+                <div class="typing-already-visited">
+                    Hi, I`m Bene.
+                </div>
+            @else
+                <div class="typing">
+                    Hi, I`m Bene.
+                </div>
+            @endif
         </div>
-    </body>
-</html>
+        <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/projects"/>
+        <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/contact"/>
+    </div>
+</x-site-template>
