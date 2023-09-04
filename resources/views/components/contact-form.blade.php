@@ -24,7 +24,7 @@
                     <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" required>
                 </div>
             </div>
-            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            <textarea class="form-control" id="form-control-textarea" rows="10" placeholder="MESSAGE" name="message" required></textarea>
             <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
                 <div class="alt-send-button">
                     <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
@@ -35,7 +35,6 @@
         <div class="direct-contact-container">
             <ul class="contact-list">
                 <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Bavaria, Germany</span></i></li>
-                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone">0163 1769819</span></i></li>
                 <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:hollibene@gmail.com" title="Send me an email">hollibene@gmail.com</a></span></i></li>
             </ul>
             <hr>
@@ -62,7 +61,7 @@
                 </li>
             </ul>
             <hr>
-            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+            <div class="copyright">Feel free to Contact me.</div>
         </div>
     </div>
 </section>

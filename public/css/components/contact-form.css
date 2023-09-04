@@ -1,7 +1,11 @@
 
 #contact {
     width: 100%;
-    height: 100%;
+    height: 70%;
+}
+
+#form-control-textarea {
+    height: 40%;
 }
 
 .section-header {
@@ -67,6 +71,7 @@
 /* Begin Right Contact Page */
 .direct-contact-container {
     max-width: 400px;
+    height: 100%;
 }
 
 /* Location, Phone, Email Section */
@@ -96,7 +101,7 @@
 }
 
 .gmail {
-    margin-left: 53px;
+    margin-left: 46px;
 }
 
 .contact-text a {
