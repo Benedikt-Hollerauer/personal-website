@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
@@ -38,3 +39,9 @@ Route::get(
     '/projects',
     [ ProjectsController::class, 'show' ]
 )->name('projects.show');
+
+// about
+Route::get(
+    '/about',
+    [AboutController::class, 'show' ]
+)->name('about.show');

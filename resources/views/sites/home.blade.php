@@ -8,7 +8,7 @@
     <x-slot:siteTitle>Benedikt Hollerauer</x-slot>
     <div class="home-container">
         <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"/>
+        <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/about"/>
         <div class="main center-items">
             @if(COOKIE::get('alreadyVisited') !== null)
                 <div class="typing-already-visited">
