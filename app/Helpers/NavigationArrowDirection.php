@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Helper;
-
-use PhpParser\Node\Expr\Cast\String_;
+namespace App\Helpers;
 
 enum NavigationArrowDirection {   
     case UP;

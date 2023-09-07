@@ -1,5 +1,5 @@
 <?php
-    use App\Helper\NavigationArrowDirection;
+    use App\Helpers\NavigationArrowDirection;
     use Illuminate\Support\Facades\Cookie;
 
     Cookie::queue(Cookie::make('alreadyVisited', '', 20));

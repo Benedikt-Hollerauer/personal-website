@@ -1,5 +1,5 @@
 <?php
-    use App\Helper\NavigationArrowDirection;
+    use App\Helpers\NavigationArrowDirection;
 ?>
 <x-site-template>
     <x-slot:siteTitle>Contact - Benedikt Hollerauer</x-slot>

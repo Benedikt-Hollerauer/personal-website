@@ -2,7 +2,7 @@
 
 namespace App\View\Components;
 
-use App\Helper\NavigationArrowDirection;
+use App\Helpers\NavigationArrowDirection;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
