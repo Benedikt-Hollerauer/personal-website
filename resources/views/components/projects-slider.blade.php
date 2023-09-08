@@ -1,3 +1,4 @@
+<script src="js/projects-slider.js"></script>
 <div class="container">
     <input type="radio" name="slider" id="item-1" checked>
     <input type="radio" name="slider" id="item-2">

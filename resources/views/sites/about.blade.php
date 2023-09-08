@@ -5,8 +5,8 @@
     <x-slot:siteTitle>About - Benedikt Hollerauer</x-slot>
     <div class="about-container">
         <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/"/>
-        <div class="main center-items">
-            About
+        <div class="main">
+            <x-timeline/>
         </div>
     </div>
 </x-site-template>

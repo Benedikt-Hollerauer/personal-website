@@ -2,6 +2,7 @@
 @import url("site/contact.css");
 @import url("site/projects.css");
 @import url("site/about.css");
+@import url("components/timeline.css");
 @import url("components/contact-form.css");
 @import url("components/loading-screen.css");
 @import url("components/navigation-arrow.css");
