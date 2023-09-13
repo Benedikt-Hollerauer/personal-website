@@ -22,9 +22,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 13</div>
                                     <div class="ag-timeline-card_desc">
@@ -50,9 +50,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-12.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 12</div>
                                     <div class="ag-timeline-card_desc">
@@ -80,9 +80,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-11.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 11</div>
                                     <div class="ag-timeline-card_desc">
@@ -110,9 +110,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-10.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 10</div>
                                     <div class="ag-timeline-card_desc">
@@ -139,9 +139,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-9.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 9</div>
                                     <div class="ag-timeline-card_desc">
@@ -167,9 +167,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-8.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 8</div>
                                     <div class="ag-timeline-card_desc">
@@ -195,9 +195,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-7.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 7</div>
                                     <div class="ag-timeline-card_desc">
@@ -223,9 +223,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-6.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 6</div>
                                     <div class="ag-timeline-card_desc">
@@ -250,9 +250,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-5.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 5</div>
                                     <div class="ag-timeline-card_desc">
@@ -281,9 +281,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-4.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 4</div>
                                     <div class="ag-timeline-card_desc">
@@ -309,9 +309,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-3.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 3</div>
                                     <div class="ag-timeline-card_desc">
@@ -338,9 +338,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 2</div>
                                     <div class="ag-timeline-card_desc">
@@ -366,9 +366,9 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- <div class="ag-timeline-card_img-box">
                                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>
+                                </div> -->
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Season 1</div>
                                     <div class="ag-timeline-card_desc">
