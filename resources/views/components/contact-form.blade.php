@@ -61,7 +61,7 @@
                 </li>
             </ul>
             <hr>
-            <div class="copyright">Feel free to Contact me.</div>
+            <div class="copyright">Feel free to leave me a message</div>
         </div>
     </div>
 </section>
