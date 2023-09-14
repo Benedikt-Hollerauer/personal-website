@@ -11,10 +11,16 @@
 html body {
     margin: 0;
     padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html body::-webkit-scrollbar {
+    display: none;
 }
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .center-items {
@@ -24,12 +30,22 @@ html body {
     vertical-align: middle;
 }
 
-.top { grid-area: top; }
+.top {
+    grid-area: top;
+}
 
-.left { grid-area: left; }
+.left {
+    grid-area: left;
+}
 
-.main { grid-area: main; }
+.main {
+    grid-area: main;
+}
 
-.right { grid-area: right; }
+.right {
+    grid-area: right;
+}
 
-.bottom { grid-area: bottom; }
+.bottom {
+    grid-area: bottom;
+}

@@ -23,6 +23,10 @@
     font-weight: bold;
 }
 
+:root {
+    --card-heading-color: rgb(94, 94, 94);
+}
+
 img {
     max-width: 100%;
 }
@@ -34,6 +38,7 @@ img {
 }
 
 .ag-timeline-block {
+    overflow-x: hidden;
     padding: 300px 0;
 }
 
@@ -132,14 +137,14 @@ img {
     font-family: "ESL Legend", sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: black;
+    color: var(--card-heading-color);
 }
 
 .ag-timeline-card_item {
     display: inline-block;
     width: 45%;
     margin: -77px 0 0;
-    background-color: #282828;
+    background-color: white;
     opacity: 0;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -147,7 +152,7 @@ img {
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
     -o-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     -moz-transition: -moz-transform 0.5s, opacity 0.5s;
     -o-transition: -o-transform 0.5s, opacity 0.5s;
@@ -222,13 +227,13 @@ img {
     font-family: "ESL Legend", sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #ff0;
+    color: var(--card-heading-color);
 }
 
 .ag-timeline-card_desc {
     line-height: 1.45;
     font-size: 16px;
-    color: #fff;
+    color: black;
 }
 
 @media only screen and (max-width: 979px) {
