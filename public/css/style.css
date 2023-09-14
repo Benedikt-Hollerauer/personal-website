@@ -11,16 +11,16 @@
 html body {
     margin: 0;
     padding: 0;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-html body::-webkit-scrollbar {
-    display: none;
 }
 
 * {
     box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 .center-items {
