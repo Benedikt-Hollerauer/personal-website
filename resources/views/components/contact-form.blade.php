@@ -35,7 +35,7 @@
         <div class="direct-contact-container">
             <ul class="contact-list">
                 <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Bavaria, Germany</span></i></li>
-                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:hollibene@gmail.com" title="Send me an email">hollibene@gmail.com</a></span></i></li>
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:{{ $myEmail }}" title="Send me an email">{{ $myEmail }}</a></span></i></li>
             </ul>
             <hr>
             <ul class="social-media-list">
