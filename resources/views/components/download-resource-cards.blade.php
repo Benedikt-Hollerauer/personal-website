@@ -1,5 +1,5 @@
 <div class="box">
-  <div class="container">
+  <div class="download-resource-cards-container">
     <main class="grid">
       <article>
         <div class="text">
