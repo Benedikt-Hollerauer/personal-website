@@ -7,6 +7,7 @@
 @import url("components/loading-screen.css");
 @import url("components/navigation-arrow.css");
 @import url("components/projects-slider.css");
+@import url("components/download-resource-cards.css");
 
 html body {
     margin: 0;

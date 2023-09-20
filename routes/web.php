@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ResourcesController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
@@ -45,3 +46,9 @@ Route::get(
     '/about',
     [AboutController::class, 'show' ]
 )->name('about.show');
+
+// resources
+Route::get(
+    '/resources',
+    [ResourcesController::class, 'show' ]
+)->name('resources.show');
