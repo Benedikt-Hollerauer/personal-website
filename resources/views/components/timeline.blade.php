@@ -1,5 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/timeline.js"></script>
+<div class="timeline-container">
 <div class="ag-timeline-block">
     <div class="ag-timeline_title-box">
         <div class="ag-timeline_title">My Career</div>
@@ -388,4 +389,5 @@
             </div>
         </div>
     </section>
+</div>
 </div>

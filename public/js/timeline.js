@@ -1,12 +1,13 @@
 (function($) {
     $(function() {
 
+        let timelineContainer = ".timeline-container";
 
-        $(window).on('scroll', function() {
+        $(timelineContainer).on('scroll', function() {
             fnOnScroll();
         });
 
-        $(window).on('resize', function() {
+        $(timelineContainer).on('resize', function() {
             fnOnResize();
         });
 
@@ -16,20 +17,20 @@
             agTimelineLineProgress = $('.js-timeline_line-progress'),
             agTimelinePoint = $('.js-timeline-card_point-box'),
             agTimelineItem = $('.js-timeline_item'),
-            agOuterHeight = $(window).outerHeight(),
-            agHeight = $(window).height(),
+            agOuterHeight = $(timelineContainer).outerHeight(),
+            agHeight = $(timelineContainer).height(),
             f = -1,
             agFlag = false;
 
         function fnOnScroll() {
-            agPosY = $(window).scrollTop();
+            agPosY = $(timelineContainer).scrollTop();
 
             fnUpdateFrame();
         }
 
         function fnOnResize() {
-            agPosY = $(window).scrollTop();
-            agHeight = $(window).height();
+            agPosY = $(timelineContainer).scrollTop();
+            agHeight = $(timelineContainer).height();
 
             fnUpdateFrame();
         }
