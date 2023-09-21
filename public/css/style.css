@@ -19,6 +19,7 @@ html body {
     box-sizing: border-box;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    font-family: monospace;
 }
 
 *::-webkit-scrollbar {
