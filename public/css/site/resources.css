@@ -1,8 +1,8 @@
 .resources-container {
     height: 100vh;
     display: grid;
-    grid-template-areas: "main" "bottom";
-    grid-template-columns: 100%;
+    grid-template-areas: "site-heading main" "bottom bottom";
+    grid-template-columns: 40% 60%;
     grid-template-rows: 90% 10%;
     position: relative;
 }
@@ -10,4 +10,12 @@
 .resources-main-content-wrapper {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .resources-container {
+        grid-template-areas: "site-heading" "main" "bottom";
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 75% 10%;
+    }
 }

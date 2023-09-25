@@ -1,4 +1,4 @@
-<div class="box">
+<div class="box center-items">
   <div class="download-resource-cards-container">
     <main class="grid">
       <article>

@@ -4,8 +4,10 @@
 <x-site-template>
     <x-slot:siteTitle>Resources - Benedikt Hollerauer</x-slot>
     <div class="resources-container">
-        <div class="main center-items resources-main-content-wrapper">
+        <div class="site-heading center-items">
             <x-site-heading siteHeading="Resources"/>
+        </div>
+        <div class="main center-items resources-main-content-wrapper">
             <x-download-resource-cards/>
         </div>
         <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/"/>
