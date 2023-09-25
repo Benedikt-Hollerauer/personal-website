@@ -9,7 +9,7 @@
 @import url("components/navigation-arrow.css");
 @import url("components/projects-slider.css");
 @import url("components/download-resource-cards.css");
-
+@import url("components/site-heading.css");
 html body {
     margin: 0;
     padding: 0;
