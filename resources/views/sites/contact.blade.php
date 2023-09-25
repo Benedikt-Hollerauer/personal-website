@@ -8,5 +8,6 @@
         <div class="main center-items">
             <x-contact-form/>
         </div>
+        <x-site-heading siteHeading="Contact"/>
     </div>
 </x-site-template>

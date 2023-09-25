@@ -4,7 +4,7 @@
 <x-site-template>
     <x-slot:siteTitle>Resources - Benedikt Hollerauer</x-slot>
     <div class="resources-container">
-        <div class="site-heading center-items">
+        <div class="center-items">
             <x-site-heading siteHeading="Resources"/>
         </div>
         <div class="main center-items resources-main-content-wrapper">

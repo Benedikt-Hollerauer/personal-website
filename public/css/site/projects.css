@@ -1,9 +1,8 @@
 .projects-container {
     height: 100vh;
     display: grid;
-    grid-template-areas:
-        "left main";
+    grid-template-areas: "left site-heading" "left main";
     grid-template-columns: 5% 95%;
-    grid-template-rows: 100%;
+    grid-template-rows: 20% 80%;
     position: relative;
 }
