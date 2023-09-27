@@ -5,7 +5,7 @@
     <x-slot:siteTitle>Contact - Benedikt Hollerauer</x-slot>
     <div class="contact-container">
         <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/"/>
-        <div class="main center-items">
+        <div class="contact-form-site-wrapper main center-items">
             <x-contact-form/>
         </div>
         <x-site-heading siteHeading="Contact"/>

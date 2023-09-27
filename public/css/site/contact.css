@@ -1,3 +1,8 @@
+.contact-form-site-wrapper {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .contact-container {
     height: 100vh;
     display: grid;
@@ -5,4 +10,15 @@
     grid-template-columns: 70% 30%;
     grid-template-rows: 10% 90%;
     position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        height: 100vh;
+        display: grid;
+        grid-template-areas: "site-heading" "main" "top" ;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 75% 10%;
+        position: relative;
+    }
 }

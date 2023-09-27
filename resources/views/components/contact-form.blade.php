@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<section id="contact">
+<section id="contact center-items" style="height: 75%;">
     <!--<h1 class="section-header">Contact</h1> -->
     <div class="contact-wrapper">
         <!-- Left Contact Form -->

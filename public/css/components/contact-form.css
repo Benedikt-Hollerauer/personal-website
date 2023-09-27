@@ -72,6 +72,7 @@
 .direct-contact-container {
     max-width: 400px;
     height: 100%;
+    margin-left: 80px;
 }
 
 /* Location, Phone, Email Section */
