@@ -48,17 +48,6 @@ img {
     padding: 300px 0;
 }
 
-.ag-timeline_title-box {
-    padding: 0 0 30px;
-    text-align: center;
-}
-
-.ag-timeline_title {
-    background-clip: text;
-    color: black;
-    font-size: 80px;
-}
-
 .ag-timeline_item {
     margin: 0 0 50px;
     position: relative;

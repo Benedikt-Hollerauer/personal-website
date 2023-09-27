@@ -2,9 +2,6 @@
 <script src="js/timeline.js"></script>
 <div class="timeline-container">
 <div class="ag-timeline-block">
-    <div class="ag-timeline_title-box">
-        <div class="ag-timeline_title">My Career</div>
-    </div>
     <section class="ag-section">
         <div class="ag-format-container">
             <div class="js-timeline ag-timeline">
