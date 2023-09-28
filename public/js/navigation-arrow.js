@@ -6,19 +6,18 @@ function changeNavigationArrowImageSource(
     document.getElementById(
         imageId
     ).src = newImageSource;
-    document.getElementById("link-" + rotation)
+    document.getElementById("img-wrapper-" + rotation)
         .style
-        .transform
-        .rotation = 0
+        .transform = "rotate(0deg)"
 }
 
 function restoreNavigationArrow(
-    imageId,
+    rotation,
     rotationDegree
 ) {
-    let image = document.getElementById(imageId)
-    image.src = "icon/navigation-arrow.svg"
-    image.style
-        .transform
-        .rotation = rotationDegree
+    document.getElementById("img-wrapper-" + rotation)
+        .style
+        .transform = "rotate(" + rotationDegree + "deg)"
+    document.getElementById("navigation-arrow-" + rotation)
+        .src = "icon/navigation-arrow.svg"
 }
