@@ -43,6 +43,7 @@ html body {
 
 .main {
     grid-area: main;
+    overflow: scroll;
 }
 
 .right {

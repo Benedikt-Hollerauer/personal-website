@@ -12,7 +12,7 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .resources-container {
         grid-template-areas: "site-heading" "main" "bottom";
         grid-template-columns: 100%;

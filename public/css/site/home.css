@@ -38,3 +38,15 @@
       border-color: transparent
     }
 }
+
+@media screen and (max-width: 768px) {
+    .home-container {
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+            "main main main main"
+            "left top bottom right";
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 90% 10%;
+    }
+}
