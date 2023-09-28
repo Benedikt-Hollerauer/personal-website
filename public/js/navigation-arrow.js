@@ -3,6 +3,9 @@ function changeNavigationArrowImageSource(
     imageId,
     rotation
 ) {
+    if(newImageSource == "") {
+        newImageSource = "icons/navigation-arrow.svg"
+    }
     document.getElementById(
         imageId
     ).src = newImageSource;
@@ -19,5 +22,5 @@ function restoreNavigationArrow(
         .style
         .transform = "rotate(" + rotationDegree + "deg)"
     document.getElementById("navigation-arrow-" + rotation)
-        .src = "icon/navigation-arrow.svg"
+        .src = "icons/navigation-arrow.svg"
 }

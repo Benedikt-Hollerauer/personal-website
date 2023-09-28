@@ -7,8 +7,16 @@
 <x-site-template>
     <x-slot:siteTitle>Benedikt Hollerauer</x-slot>
     <div class="home-container">
-        <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/resources"/>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/about"/>
+        <x-navigation-arrow
+            :rotation="NavigationArrowDirection::UP"
+            linkLocation="/resources"
+            iconOnHover="'icons/resources.svg'"
+        />
+        <x-navigation-arrow
+            :rotation="NavigationArrowDirection::LEFT"
+            linkLocation="/about"
+            iconOnHover="'icons/about.svg'"
+        />
         <div class="main center-items">
             @if(COOKIE::get('alreadyVisited') !== null)
                 <div class="typing-already-visited">
@@ -20,7 +28,15 @@
                 </div>
             @endif
         </div>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::RIGHT" linkLocation="/projects"/>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/contact"/>
+        <x-navigation-arrow
+            :rotation="NavigationArrowDirection::RIGHT"
+            linkLocation="/projects"
+            iconOnHover="'icons/projects.svg'"
+        />
+        <x-navigation-arrow
+            :rotation="NavigationArrowDirection::DOWN"
+            linkLocation="/contact"
+            iconOnHover="'icons/contact.svg'"
+        />
     </div>
 </x-site-template>

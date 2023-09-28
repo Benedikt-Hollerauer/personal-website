@@ -10,6 +10,10 @@
         <div class="main center-items resources-main-content-wrapper">
             <x-download-resource-cards/>
         </div>
-        <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/"/>
+        <x-navigation-arrow
+            :rotation="NavigationArrowDirection::DOWN"
+            linkLocation="/"
+            iconOnHover="'icons/home.svg'"
+        />
     </div>
 </x-site-template>
