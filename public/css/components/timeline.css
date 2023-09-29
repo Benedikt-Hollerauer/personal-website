@@ -31,13 +31,6 @@ img {
     max-width: 100%;
 }
 
-.timeline-container {
-    height: 100vh;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
 .ag-format-container {
     width: 1160px;
     margin: 0 auto;

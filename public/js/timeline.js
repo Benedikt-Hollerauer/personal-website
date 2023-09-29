@@ -1,6 +1,6 @@
 (function ($) {
     $(function () {
-        let timelineContainer = ".timeline-container";
+        let timelineContainer = ".scroll-section";
 
         $(timelineContainer).on("scroll", function () {
             fnOnScroll();

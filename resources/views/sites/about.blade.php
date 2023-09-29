@@ -10,7 +10,7 @@
             linkLocation="/"
             iconOnHover="'icons/home.svg'"
         />
-        <div class="main">
+        <div class="main scroll-section">
             <x-skill-cards/>
             <x-timeline/>
         </div>
