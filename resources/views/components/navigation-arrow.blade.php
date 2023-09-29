@@ -1,5 +1,8 @@
 <script src="js/navigation-arrow.js"></script>
-<a href="{{ $linkLocation }}" class="{{ $rotation->getRotationName() }}">
+<a
+    href="{{ $linkLocation }}"
+    class="{{ $rotation->getRotationName() }}"
+>
     <div class="navigation-item center-items"
         onmouseover="changeNavigationArrowImageSource(
             {{ $iconOnHover }},

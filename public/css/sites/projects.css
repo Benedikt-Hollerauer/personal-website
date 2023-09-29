@@ -7,7 +7,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
     .projects-container {
         height: 100vh;
         display: grid;
