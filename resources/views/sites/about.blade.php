@@ -11,6 +11,7 @@
             iconOnHover="'icons/home.svg'"
         />
         <div class="main">
+            <x-skill-cards/>
             <x-timeline/>
         </div>
     </div>
