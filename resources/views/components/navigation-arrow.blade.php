@@ -36,4 +36,12 @@
             "{{ $rotation->getDegreeForRotation() }}"
         );
     });
+    window.addEventListener("load", function() {
+        changeIconIfMobile(
+            <?php echo $iconOnHover ?>,
+            "navigation-arrow-{{ $rotation->getRotationName() }}",
+            "img-wrapper-{{ $rotation->getRotationName() }}",
+            "{{ $rotation->getDegreeForRotation() }}"
+        );
+    });
 </script>

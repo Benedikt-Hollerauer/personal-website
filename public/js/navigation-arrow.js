@@ -1,28 +1,23 @@
-function changeNavigationArrowImageSource(
-    newImageSource,
-    imageId,
-    rotation
-) {
-    if(newImageSource == "") {
-        newImageSource = "icons/navigation-arrow.svg"
+function changeNavigationArrowImageSource(newImageSource, imageId, rotation) {
+    if (newImageSource === "") {
+        newImageSource = "icons/navigation-arrow.svg";
     }
-    document.getElementById(
-        imageId
-    ).src = newImageSource;
-    document.getElementById("img-wrapper-" + rotation)
-        .style
-        .transform = "rotate(0deg)";
+
+    const imageElement = document.getElementById(imageId);
+    const rotationElement = document.getElementById("img-wrapper-" + rotation);
+
+    imageElement.src = newImageSource;
+    rotationElement.style.transform = "rotate(0deg)";
 }
 
-function restoreNavigationArrow(
-    rotation,
-    rotationDegree
-) {
-    document.getElementById("img-wrapper-" + rotation)
-        .style
-        .transform = "rotate(" + rotationDegree + "deg)";
-    document.getElementById("navigation-arrow-" + rotation)
-        .src = "icons/navigation-arrow.svg";
+function restoreNavigationArrow(rotation, rotationDegree) {
+    const rotationElement = document.getElementById("img-wrapper-" + rotation);
+    const navigationArrowElement = document.getElementById(
+        "navigation-arrow-" + rotation
+    );
+
+    rotationElement.style.transform = "rotate(" + rotationDegree + "deg)";
+    navigationArrowElement.src = "icons/navigation-arrow.svg";
 }
 
 function changeIconIfMobile(
@@ -31,17 +26,17 @@ function changeIconIfMobile(
     imageWrapperId,
     rotationDegree
 ) {
-    let image = document.getElementById(imageId);
-    let imageWrapper = document.getElementById(imageWrapperId)
-    let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-    if(viewportWidth <= 1024) {
-        image.src = newImageSource;
-        imageWrapper.style
-            .transform = "rotate(0deg)";
+    const imageElement = document.getElementById(imageId);
+    const imageWrapperElement = document.getElementById(imageWrapperId);
+    const viewportWidth =
+        window.innerWidth || document.documentElement.clientWidth;
+
+    if (viewportWidth <= 1024) {
+        imageElement.src = newImageSource;
+        imageWrapperElement.style.transform = "rotate(0deg)";
     } else {
-        image.src = "icons/navigation-arrow.svg";
-        imageWrapper
-            .style
-            .transform = "rotate(" + rotationDegree + "deg)";
+        imageElement.src = "icons/navigation-arrow.svg";
+        imageWrapperElement.style.transform =
+            "rotate(" + rotationDegree + "deg)";
     }
 }

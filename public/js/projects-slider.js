@@ -3,12 +3,11 @@ var swiper = new Swiper(".blog-slider", {
     effect: "fade",
     loop: true,
     mousewheel: {
-      invert: false
+        invert: false,
     },
     // autoHeight: true,
     pagination: {
-      el: ".blog-slider__pagination",
-      clickable: true
-    }
-  });
-  
+        el: ".blog-slider__pagination",
+        clickable: true,
+    },
+});
