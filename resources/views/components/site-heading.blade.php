@@ -1,1 +1,3 @@
-<div class="site-heading">{{ $siteHeading }}</div>
+<div class="site-heading">
+    {{ $siteHeading }}
+</div>

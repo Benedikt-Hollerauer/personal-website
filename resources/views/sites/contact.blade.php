@@ -10,7 +10,9 @@
             iconOnHover="'icons/home.svg'"
         />
         <div class="contact-form-site-wrapper main center-items">
-            <x-contact-form/>
+            <x-background-card>
+                <x-contact-form/>
+            </x-background-card>
         </div>
         <x-site-heading siteHeading="Contact"/>
     </div>

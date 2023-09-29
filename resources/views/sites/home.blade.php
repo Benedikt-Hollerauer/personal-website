@@ -18,15 +18,17 @@
             iconOnHover="'icons/about.svg'"
         />
         <div class="main center-items">
-            @if(COOKIE::get('alreadyVisited') !== null)
-                <div class="typing-already-visited">
-                    Hi, I`m Bene.
-                </div>
-            @else
-                <div class="typing">
-                    Hi, I`m Bene.
-                </div>
-            @endif
+            <x-background-card>
+                @if(COOKIE::get('alreadyVisited') !== null)
+                    <div class="typing-already-visited">
+                        Hi, I`m Bene.
+                    </div>
+                @else
+                    <div class="typing">
+                        Hi, I`m Bene.
+                    </div>
+                @endif
+            </x-background-card>
         </div>
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::RIGHT"

@@ -8,7 +8,9 @@
             <x-site-heading siteHeading="Resources"/>
         </div>
         <div class="main center-items resources-main-content-wrapper">
-            <x-download-resource-cards/>
+            <x-background-card>
+                <x-download-resource-cards/>
+            </x-background-card>
         </div>
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::DOWN"

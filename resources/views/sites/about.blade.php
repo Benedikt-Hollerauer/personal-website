@@ -11,9 +11,15 @@
             iconOnHover="'icons/home.svg'"
         />
         <div class="main scroll-section">
-            <x-about-me-text/>
-            <x-skill-cards/>
-            <x-timeline/>
+            <x-background-card>
+                <x-about-me-text/>
+            </x-background-card>
+            <x-background-card>
+                <x-skill-cards/>
+            </x-background-card>
+            <x-background-card>
+                <x-timeline/>
+            </x-background-card>
         </div>
     </div>
 </x-site-template>
