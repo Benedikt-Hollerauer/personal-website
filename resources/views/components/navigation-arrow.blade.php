@@ -27,3 +27,13 @@
         </div>
     </div>
 </a>
+<script>
+    window.addEventListener("resize", function() {
+        changeIconIfMobile(
+            <?php echo $iconOnHover ?>,
+            "navigation-arrow-{{ $rotation->getRotationName() }}",
+            "img-wrapper-{{ $rotation->getRotationName() }}",
+            "{{ $rotation->getDegreeForRotation() }}"
+        );
+    });
+</script>

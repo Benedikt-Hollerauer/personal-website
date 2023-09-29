@@ -11,7 +11,7 @@ function changeNavigationArrowImageSource(
     ).src = newImageSource;
     document.getElementById("img-wrapper-" + rotation)
         .style
-        .transform = "rotate(0deg)"
+        .transform = "rotate(0deg)";
 }
 
 function restoreNavigationArrow(
@@ -20,7 +20,28 @@ function restoreNavigationArrow(
 ) {
     document.getElementById("img-wrapper-" + rotation)
         .style
-        .transform = "rotate(" + rotationDegree + "deg)"
+        .transform = "rotate(" + rotationDegree + "deg)";
     document.getElementById("navigation-arrow-" + rotation)
-        .src = "icons/navigation-arrow.svg"
+        .src = "icons/navigation-arrow.svg";
+}
+
+function changeIconIfMobile(
+    newImageSource,
+    imageId,
+    imageWrapperId,
+    rotationDegree
+) {
+    let image = document.getElementById(imageId);
+    let imageWrapper = document.getElementById(imageWrapperId)
+    let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    if(viewportWidth <= 1024) {
+        image.src = newImageSource;
+        imageWrapper.style
+            .transform = "rotate(0deg)";
+    } else {
+        image.src = "icons/navigation-arrow.svg";
+        imageWrapper
+            .style
+            .transform = "rotate(" + rotationDegree + "deg)";
+    }
 }
