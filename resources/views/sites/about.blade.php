@@ -11,6 +11,7 @@
             iconOnHover="'icons/home.svg'"
         />
         <div class="main scroll-section">
+            <x-about-me-text/>
             <x-skill-cards/>
             <x-timeline/>
         </div>

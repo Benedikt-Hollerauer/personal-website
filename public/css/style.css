@@ -11,6 +11,7 @@
 @import url("components/download-resource-cards.css");
 @import url("components/site-heading.css");
 @import url("components/skill-cards.css");
+@import url("components/about-me-text.css");
 html body {
     margin: 0;
     padding: 0;
