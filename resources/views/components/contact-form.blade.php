@@ -8,9 +8,9 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<section id="contact center-items" style="height: 75%;">
+<section id="contact center-items">
     <!--<h1 class="section-header">Contact</h1> -->
-    <div class="contact-wrapper">
+    <div class="contact-wrapper center-items">
         <!-- Left Contact Form -->
         <form id="contact-form" class="form-horizontal" role="form" method="POST" action="{{ route('contact.store') }}">
             @csrf
