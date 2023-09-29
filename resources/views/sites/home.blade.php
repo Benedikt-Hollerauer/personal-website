@@ -5,7 +5,7 @@
     Cookie::queue(Cookie::make('alreadyVisited', '', 20));
 ?>
 <x-site-template>
-    <x-slot:siteTitle>Benedikt Hollerauer</x-slot>
+    <x-slot:siteTitle>{{ config('constants.MY_FULL_NAME') }}</x-slot>
     <div class="home-container">
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::UP"
@@ -21,11 +21,11 @@
             <x-background-card>
                 @if(COOKIE::get('alreadyVisited') !== null)
                     <div class="typing-already-visited">
-                        Hi, I`m Bene.
+                        Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
                     </div>
                 @else
                     <div class="typing">
-                        Hi, I`m Bene.
+                        Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
                     </div>
                 @endif
             </x-background-card>

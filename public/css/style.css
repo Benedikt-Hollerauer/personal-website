@@ -26,6 +26,14 @@ html body {
     font-family: monospace;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 *::-webkit-scrollbar {
     display: none;
 }
@@ -47,7 +55,8 @@ html body {
 
 .main {
     grid-area: main;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .right {

@@ -2,7 +2,7 @@
     use App\Helpers\NavigationArrowDirection;
 ?>
 <x-site-template>
-    <x-slot:siteTitle>Contact - Benedikt Hollerauer</x-slot>
+    <x-slot:siteTitle>Contact - {{ config('constants.MY_FULL_NAME') }}</x-slot>
     <div class="contact-container">
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::UP"

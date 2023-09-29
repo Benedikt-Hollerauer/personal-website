@@ -2,7 +2,7 @@
     use App\Helpers\NavigationArrowDirection;
 ?>
 <x-site-template>
-    <x-slot:siteTitle>Projects - Benedikt Hollerauer</x-slot>
+    <x-slot:siteTitle>Projects - {{ config('constants.MY_FULL_NAME') }}</x-slot>
     <div class="projects-container">
         <x-site-heading siteHeading="Projects"/>
         <x-navigation-arrow
