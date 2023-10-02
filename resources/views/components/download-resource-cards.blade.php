@@ -6,7 +6,7 @@
           <h3>🏠 Home</h3>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <a href="" class="btn">Download</a>
+          <a href="/downloadLinuxCertificate" class="btn">Download</a>
         </div>
       </article>
 

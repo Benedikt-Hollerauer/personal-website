@@ -44,11 +44,21 @@ Route::get(
 // about
 Route::get(
     '/about',
-    [AboutController::class, 'show' ]
+    [ AboutController::class, 'show' ]
 )->name('about.show');
 
 // resources
 Route::get(
     '/resources',
-    [ResourcesController::class, 'show' ]
+    [ ResourcesController::class, 'show' ]
 )->name('resources.show');
+
+Route::get(
+    '/downloadCV',
+    [ ResourcesController::class, 'getCVDownload' ]
+)->name('resources.downloadCV');
+
+Route::get(
+    '/downloadLinuxCertificate',
+    [ ResourcesController::class, 'getLinuxCertificateDownload' ]
+)->name('resources.downloadLinuxCertificate');
