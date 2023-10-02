@@ -1,3 +1,7 @@
 .about-me-text {
-    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+    color: black;
+    padding: 10px;
 }
