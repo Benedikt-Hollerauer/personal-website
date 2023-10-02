@@ -1,5 +1,5 @@
 <x-mail::message>
-# Contact from {{ $name }}
+# Contact E-Mail from: {{ $name }}
 
 {{ $message }}
 
