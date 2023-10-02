@@ -1,13 +1,14 @@
 .site-heading {
-    font-size: 90px;
+    font-size: 95px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
     .site-heading {
-        font-size: 40px;
+        font-size: 50px;
     }
 }

@@ -6,8 +6,10 @@
 .contact-container {
     height: 100vh;
     display: grid;
-    grid-template-areas: "top top" "main site-heading";
-    grid-template-columns: 60% 40%;
+    grid-template-areas:
+        "top top top"
+        "main site-heading .";
+    grid-template-columns: 70% 20% 10%;
     grid-template-rows: 10% 90%;
     position: relative;
 }
