@@ -5,7 +5,7 @@ $myCurrentAge = (new DateTime())->diff(
 )->y;
 
 return [
-    'MY_EMAIL_ADDRESS' => 'hollibene@gmail.com',
+    'MY_EMAIL_ADDRESS' => 'contact@benedikt-hollerauer.com',
     'MY_FULL_NAME' => 'Benedikt Hollerauer',
     'MY_NICK_NAME' => 'Bene',
     'MY_CURRENT_AGE' => $myCurrentAge,

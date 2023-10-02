@@ -14,14 +14,17 @@ class ContactController extends Controller {
     }
 
     public function store(ContactRequest $request): RedirectResponse {
-        Mail::to('hollibene@gmail.com') // TODO here is the error
-            ->send(
-                new ContactMail(
-                    $request->name,
-                    $request->email,
-                    $request->message
-                )
-            );
-        return redirect('/contact'); // TODO: maybe add a extra page
+        Mail::to(
+            config('constants.MY_EMAIL_ADDRESS')
+        )->send(
+            new ContactMail(
+                $request->name,
+                $request->email,
+                $request->message
+            )
+        );
+        return redirect()
+            ->back()
+            ->with('success', 'Your message has been sent successfully!'); // TODO: maybe add a extra page
     }
 }
