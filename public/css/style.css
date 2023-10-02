@@ -45,6 +45,20 @@ a:hover {
     vertical-align: middle;
 }
 
+.text-link {
+    color: rgb(88, 0, 139);
+    text-decoration: none;
+}
+
+.text-link:hover {
+    transition: color 0.2s ease-in-out;
+    text-decoration: underline;
+}
+
+.text-link:visited {
+    color: rgb(222, 144, 255);
+}
+
 .top {
     grid-area: top;
 }
