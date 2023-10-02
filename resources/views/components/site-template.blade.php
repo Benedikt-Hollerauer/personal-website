@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link
+            rel="icon"
+            href="icons/code-site-logo.svg" 
+        >
         <title>{{ $siteTitle }}</title>
     </head>
     <body>
