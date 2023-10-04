@@ -79,7 +79,7 @@
 .contact-list {
     list-style-type: none;
     margin-left: -30px;
-    padding-right: 20px;
+    /*padding-right: 20px;*/
 }
 
 .list-item {
@@ -102,7 +102,9 @@
 }
 
 .gmail {
-    margin-left: 46px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .contact-text a {
