@@ -53,7 +53,7 @@
     </div>-->
   </a>
 
-  <a href="/resources" target="_blank" class="card 3">
+  <a href="/resources" class="card 3">
     <div class="card_image">
       <img src="icons/linux-logo.svg" alt="Linux Logo"/>
     </div>
