@@ -62,3 +62,11 @@ Route::get(
     '/downloadLinuxCertificate',
     [ ResourcesController::class, 'getLinuxCertificateDownload' ]
 )->name('resources.downloadLinuxCertificate');
+
+// projects subdomain route group
+Route::domain('projects.benedikt-hollerauer.com')->group(function() {
+    Route::get(
+        '/sorting-algorithm-visualizer',
+        [ AboutController::class, 'show' ]
+    );
+});
