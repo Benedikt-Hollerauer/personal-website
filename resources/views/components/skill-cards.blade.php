@@ -44,6 +44,24 @@
     </div>-->
   </a>
 
+  <a href="https://www.typescriptlang.org/" target="_blank" class="card 1">
+    <div class="card_image">
+      <img src="icons/typescript-logo.svg" alt="Typescript Logo"/>
+    </div>
+    <!--<div class="card_title title-white">
+      <p>PHP</p>
+    </div>-->
+  </a>
+
+  <a href="https://www.javascript.com/" target="_blank" class="card 1">
+    <div class="card_image">
+      <img src="icons/javascript-logo.svg" alt="Javascript Logo"/>
+    </div>
+    <!--<div class="card_title title-white">
+      <p>PHP</p>
+    </div>-->
+  </a>
+
   <a href="https://www.mysql.com/" target="_blank" class="card 2">
     <div class="card_image">
       <img src="icons/mysql-logo.svg" alt="MySQL Logo"/>
