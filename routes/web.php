@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ResourcesController;
+use App\Http\Controllers\SortingAlgorithmVisualizerController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
@@ -64,9 +65,9 @@ Route::get(
 )->name('resources.downloadLinuxCertificate');
 
 // projects subdomain route group
-Route::domain('projects.benedikt-hollerauer.com')->group(function() {
+Route::domain('projects.' . env('APP_URL'))->group(function() {
     Route::get(
-        '/sorting-algorithm-visualizer',
-        [ AboutController::class, 'show' ]
+        'sorting-algorithm-visualizer',
+        [ SortingAlgorithmVisualizerController::class, 'show' ]
     );
 });
