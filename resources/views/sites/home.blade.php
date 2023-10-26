@@ -17,19 +17,28 @@
             linkLocation="/about"
             iconOnHover="'icons/about.svg'"
         />
+        <div class="spacer"></div>
         <div class="main center-items">
+            @if(COOKIE::get('alreadyVisited') !== null)
+                <div class="typing-already-visited">
+                    Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
+                </div>
+            @else
+                <div class="typing">
+                    Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
+                </div>
+            @endif
+        </div>
+        <div class="self-portrait center-items">
             <x-background-card>
-                @if(COOKIE::get('alreadyVisited') !== null)
-                    <div class="typing-already-visited">
-                        Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
-                    </div>
-                @else
-                    <div class="typing">
-                        Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
-                    </div>
-                @endif
+                <img
+                    id="self-portrait"
+                    src="images/bene_portrait_mountain_camping.jpg"
+                    alt="Benedikt Hollerauer Self Portrait"
+                >
             </x-background-card>
         </div>
+        <div class="spacer"></div>
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::RIGHT"
             linkLocation="/projects"

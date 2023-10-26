@@ -2,11 +2,16 @@
     height: 100vh;
     display: grid;
     grid-template-areas:
-        ". top ."
-        "left main right"
-        ". bottom .";
-    grid-template-columns: 5% 90% 5%;
+        ". top top ."
+        "left main self-portrait right"
+        ". bottom bottom .";
+    grid-template-columns: 5% 45% 45% 5%;
     grid-template-rows: 10% 80% 10%;
+}
+
+#self-portrait {
+    border-radius: 40px;
+    height: 400px;
 }
   
 .typing {
@@ -39,14 +44,24 @@
     }
 }
 
+.self-portrait {
+    grid-area: self-portrait;
+}
+
 @media screen and (max-width: 1024px) {
+    #self-portrait {
+        border-radius: 40px;
+        height: auto;
+    }
+
     .home-container {
         height: 100vh;
         display: grid;
         grid-template-areas:
+            "self-portrait self-portrait self-portrait self-portrait"
             "main main main main"
             "left top bottom right";
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 90% 10%;
+        grid-template-rows: 50% 40% 10%;
     }
 }
