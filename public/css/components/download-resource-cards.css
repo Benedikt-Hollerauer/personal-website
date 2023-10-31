@@ -10,7 +10,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 180px;
   }
   
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
@@ -33,7 +33,6 @@
   .grid .text {
     padding: 10px 20px 20px 30px;
     color: #808285;
-    margin-bottom: 20px;
   }
   
   .grid .btn {

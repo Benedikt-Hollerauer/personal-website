@@ -54,6 +54,7 @@ Route::get(
     [ ResourcesController::class, 'show' ]
 )->name('resources.show');
 
+// download resources
 Route::get(
     '/downloadCV',
     [ ResourcesController::class, 'getCVDownload' ]
@@ -63,6 +64,21 @@ Route::get(
     '/downloadLinuxCertificate',
     [ ResourcesController::class, 'getLinuxCertificateDownload' ]
 )->name('resources.downloadLinuxCertificate');
+
+Route::get(
+    '/downloadScalaEssentialsCertificate',
+    [ ResourcesController::class, 'getScalaEssentialsCertificateDownload' ]
+)->name('resources.downloadScalaEssentialsCertificate');
+
+Route::get(
+    '/downloadScalaAdvancedCertificate',
+    [ ResourcesController::class, 'getScalaAdvancedCertificateDownload' ]
+)->name('resources.downloadScalaAdvancedCertificate');
+
+Route::get(
+    '/downloadEuropass',
+    [ ResourcesController::class, 'getEuropassDownload' ]
+)->name('resources.downloadEuropass');
 
 // projects subdomain route group
 Route::domain('projects.' . env('APP_URL'))->group(function() {
