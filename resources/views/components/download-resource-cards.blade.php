@@ -31,7 +31,7 @@
         <div class="text">
           <h3>✅ My CV</h3>
           <br>
-          <p>You can download my CV here to learn more about my skills and my experience.</p>
+          <p>Download my CV here to learn more about my skills and my experience.</p>
           <a href="/downloadCV" class="btn">Download</a>
         </div>
       </article>
