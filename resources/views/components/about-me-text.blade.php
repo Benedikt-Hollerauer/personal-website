@@ -1,8 +1,11 @@
 <div class="center-items about-me-text">
     <div>
-        Hi, my name is {{ config('constants.MY_NICK_NAME') }}.
+        <p>👋 Hey there, I'm <strong>{{ config('constants.MY_NICK_NAME') }}</strong>,</p>
         <br>
-        I`m {{ config('constants.MY_CURRENT_AGE') }} years old and I`m living in Bavaria / Germany.
-        Currently I`m a software developer working at <a href="{{ config('constants.MY_CURRENT_WORKPLACE_LINK') }}" target="_blank" class="text-link">{{ config('constants.MY_CURRENT_WORKPLACE') }}</a>. 
+        <p>a software engineer based in Bavaria, Germany. 🌍</p>
+        <p>I'm passionate about transforming ideas into robust, well-tested software products. 🔧💡</p>
+        <p>Specializing in functional programming, I'm deeply interested in the architecture and design of software products. 🛠️</p>
+        <p>I invite you to explore my website and connect with me on social media. 🌐📱</p>
+        <p>Cheers! 🥂</p>
     </div>
 </div>
