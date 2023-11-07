@@ -39,23 +39,23 @@
             </ul>
             <hr>
             <ul class="social-media-list">
-                <li>
-                    <a href="https://github.com/Benedikt-Hollerauer" target="_blank" class="contact-icon">
+                <li onclick="window.open('https://github.com/Benedikt-Hollerauer', '_blank');">
+                    <a class="contact-icon">
                         <i class="fa-brands fa-github"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="https://leetcode.com/benedikt-hollerauer/" target="_blank" class="contact-icon">
+                <li onclick="window.open('https://leetcode.com/benedikt-hollerauer/', '_blank');">
+                    <a class="contact-icon">
                         <i class="fa-solid fa-code"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/benedikt-hollerauer-b198b6259/" target="_blank" class="contact-icon">
+                <li onclick="window.open('https://www.linkedin.com/in/benedikt-hollerauer-b198b6259/', '_blank');">
+                    <a class="contact-icon">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/bene.hl/" target="_blank" class="contact-icon">
+                <li onclick="window.open('https://www.instagram.com/bene.hl/', '_blank');">
+                    <a class="contact-icon">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                 </li>
