@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link
             rel="icon"
-            href="icons/code-site-logo.svg" 
+            href="icons/hb-logo-white-transparent.svg" 
         >
         <title>{{ $siteTitle }}</title>
     </head>
