@@ -14,9 +14,15 @@
             <x-background-card>
                 <x-about-me-text/>
             </x-background-card>
+            <h1 class="section-heading">
+                <x-background-card>These are my current skills</x-background-card>
+            </h1>
             <x-background-card>
                 <x-skill-cards/>
             </x-background-card>
+            <h1 class="section-heading">
+                <x-background-card>And here is my career until now</x-background-card>
+            </h1>
             <x-background-card>
                 <x-timeline/>
             </x-background-card>
