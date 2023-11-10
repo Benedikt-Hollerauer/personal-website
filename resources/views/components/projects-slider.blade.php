@@ -6,36 +6,49 @@
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
 
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="">
+        <img src="icons/sorting-symbolic-logo.svg" alt="Sorting algorithm visualizer symbolic logo">
       </div>
       <div class="blog-slider__content">
         <span class="blog-slider__code">26 December 2019</span>
-        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">26 December 2019</span>
-        <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
+        <div class="blog-slider__title">SORTING ALGORITHM VISUALIZER</div>
+        <div class="blog-slider__text">📶 The Sorting Algorithm Visualizer project demonstrates various sorting algorithms using higher-order functions in Scala.js. It follows pure functional programming principles, adheres to Test-Driven Development (TDD) and Clean Architecture, providing a visual representation of algorithm functionality. 📊</div>
+        <a href="https://github.com/Benedikt-Hollerauer/sorting-algorithm-visualizer" target="_blank" class="blog-slider__button">Check out the code here</a>
       </div>
     </div>
 
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="">
+        <img src="icons/leetcode-logo.svg" alt="Leetcode icon">
       </div>
       <div class="blog-slider__content">
         <span class="blog-slider__code">26 December 2019</span>
-        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
+        <div class="blog-slider__title">LEETCODE</div>
+        <div class="blog-slider__text">🏋️‍♂️ This is my LeetCode practice repository! This repository is dedicated to my journey of training algorithms and data structures. Here, you will find a collection of my solutions to LeetCode problems. 🧠</div>
+        <a href="https://github.com/Benedikt-Hollerauer/leetcode" target="_blank" class="blog-slider__button">Check out the code here</a>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="icons/sales-monitoring-symbolic-logo.svg" alt="Sales monitoring symbolic image">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">SALES MONITORING</div>
+        <div class="blog-slider__text">💼 The Sales Monitoring project is coded in Scala and compiled through Scala.js, following the Clean Architecture principles by Uncle Bob (Robert C. Martin). It offers features such as profit calculation, viewing the latest sales, creating new sales records, and searching for sales data. 📈</div>
+        <a href="https://github.com/Benedikt-Hollerauer/sales-monitoring" target="_blank" class="blog-slider__button">Check out the code here</a>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="icons/website-symbolic-logo.svg" alt="Personal website symbolic logo">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">PERSONAL WEBSITE</div>
+        <div class="blog-slider__text">🌐 This is my personal website! This site, built with PHP and the Laravel framework, reflects my growth in web development. While creating this project, I explored different frameworks and libraries, improving my ability to make strong and interactive websites. 🚀</div>
+        <a href="https://github.com/Benedikt-Hollerauer/personal-website" target="_blank" class="blog-slider__button">Check out the code here</a>
       </div>
     </div>
 
