@@ -33,7 +33,7 @@
             <x-background-card>
                 <img
                     id="self-portrait"
-                    src="images/bene_portrait_mountain_camping.jpg"
+                    src="images/avatartion.png"
                     alt="Benedikt Hollerauer Self Portrait"
                 >
             </x-background-card>
