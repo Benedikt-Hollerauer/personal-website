@@ -20,7 +20,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
+                                    <img src="images/school-illustration.png" class="ag-timeline-card_img" width="640" height="360" alt="School illustration"/>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Navigating The German Base Education:</div>
@@ -47,7 +47,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-12.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                                    <img src="images/start-of-career-illustration.png" class="ag-timeline-card_img" width="640" height="360" alt="Start of career illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">First Apprenticeship & Unexpected Turns</div>
@@ -74,7 +74,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-11.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                                    <img src="images/start-of-programming-apprenticeship.jpeg" class="ag-timeline-card_img" width="640" height="360" alt="Start of programming apprenticeship illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">The Start Of My Second Apprenticeship</div>
@@ -101,7 +101,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-10.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                                    <img src="images/love-for-programming.jpeg" class="ag-timeline-card_img" width="640" height="360" alt="Programming / software architecture illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Crafting Code And Mastering Challenges</div>
