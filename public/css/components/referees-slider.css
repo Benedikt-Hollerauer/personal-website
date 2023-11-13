@@ -9,7 +9,7 @@
     --color-neutral-light-gray-300: hsl(0, 0%, 81%);
     --color-neutral-light-gray-200: hsl(210, 46%, 95%);
 
-    --font-size-default: 16px;
+    --font-size-default: 25px;
     --font-primary: "Barlow Semi Condensed", sans-serif;
 }
 /* TESTIMONIAL CONTAINER */
@@ -17,10 +17,11 @@
 .testimonial-container {
     /*max-width: 1200px;*/
     margin: auto;
-    height: 500px;
+    height: 400px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     gap: 1.5rem;
+    overflow-y: scroll;
 }
 
 /* TESTIMONIAL */
