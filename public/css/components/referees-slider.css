@@ -130,6 +130,18 @@ h2 {
         padding: 2rem 0.5rem;
     }
 
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 0.7rem;
+    }
+
+    .quotes {
+        display: none;
+    }
+
     .testimonial:nth-of-type(1) {
         grid-column: 1 / 7;
         grid-row: 1;
