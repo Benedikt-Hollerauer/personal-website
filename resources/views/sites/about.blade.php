@@ -12,6 +12,9 @@
         />
         <div class="main scroll-section">
             <x-background-card>
+                <x-referees-slider/>
+            </x-background-card>
+            <x-background-card>
                 <x-about-me-text/>
             </x-background-card>
             <h1 class="section-heading">
