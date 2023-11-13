@@ -3,7 +3,7 @@
     display: grid;
     grid-template-areas: "site-heading right" "main right";
     grid-template-columns: 95% 5%;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 17% 82%;
     position: relative;
 }
 

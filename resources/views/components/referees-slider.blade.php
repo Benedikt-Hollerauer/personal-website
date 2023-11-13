@@ -6,7 +6,7 @@
             <img src="icons/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
-                        href="https://www.linkedin.com/in/markus-ziegler-29709421a/">Thomas Höfer</a></h2>
+                        href="https://www.linkedin.com/in/thomas-h%C3%B6fer-45848352/">Thomas Höfer</a></h2>
                 <p>Senior Software Engineer</p>
             </div>
         </div>
