@@ -12,9 +12,6 @@
         />
         <div class="main scroll-section">
             <x-background-card>
-                <x-referees-slider/>
-            </x-background-card>
-            <x-background-card>
                 <x-about-me-text/>
             </x-background-card>
             <h1 class="section-heading">
@@ -22,6 +19,12 @@
             </h1>
             <x-background-card>
                 <x-skill-cards/>
+            </x-background-card>
+            <h1 class="section-heading">
+                <x-background-card>My Testimonials</x-background-card>
+            </h1>
+            <x-background-card>
+                <x-referees-slider/>
             </x-background-card>
             <h1 class="section-heading">
                 <x-background-card>And here is my career until now</x-background-card>
