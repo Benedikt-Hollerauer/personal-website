@@ -5,7 +5,8 @@
         <div class="profile-info">
             <img src="icons/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
-                <h2 class="name">Thomas Höfer</h2>
+                <h2 class="name"><a class="text-link" target="_blank"
+                        href="https://www.linkedin.com/in/markus-ziegler-29709421a/">Thomas Höfer</a></h2>
                 <p>Senior Software Engineer</p>
             </div>
         </div>
@@ -13,7 +14,9 @@
         <!-- TESTIMONIAL -->
         <div class="testimonial-text">
             <h3>
-                As Bene's former superior at Börse.de Group AG, I confidently recommend him as a software engineer. He
+                As Bene's former superior at <a class="text-link" target="_blank"
+                    href="https://www.boerse-group.de">Börse.de Group AG</a>, I confidently recommend him as a software
+                engineer. He
                 excels in creating robust code, promoting teamwork, and quickly adapting to new technologies, benefiting
                 our projects significantly.
             </h3>
@@ -24,10 +27,10 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img src="icons/quotes-icon.svg"
-                alt="Quotes" />
+            <img src="icons/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
-                <h2 class="name">Markus Ziegler</h2>
+                <h2 class="name"><a class="text-link" target="_blank"
+                        href="https://www.linkedin.com/in/markus-ziegler-29709421a/">Markus Ziegler</a></h2>
                 <p>Senior Software Engineer</p>
             </div>
         </div>
@@ -45,11 +48,11 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img src="icons/quotes-icon.svg"
-                alt="  font-size: larger;" />
+            <img src="icons/quotes-icon.svg" alt="  font-size: larger;" />
             <div class="profile-text">
-                <h2 class="name">Jannik Meier</h2>
-                <p>Software Developer</p>
+                <h2 class="name"><a class="text-link" target="_blank"
+                        href="https://www.linkedin.com/in/jannik-meier-206934294/">Jannik Meier</a></h2>
+                <p>Junior Software Developer</p>
             </div>
         </div>
 
@@ -65,11 +68,11 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img src="icons/quotes-icon.svg"
-                alt="Quotes" />
+            <img src="icons/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
-                <h2 class="name">Kevin Heick</h2>
-                <p>Senior Software Engineer</p>
+                <h2 class="name"><a class="text-link" target="_blank"
+                        href="https://www.linkedin.com/in/kevin-heick-929202285/">Kevin Heick</a></h2>
+                <p>Junior Software Engineer</p>
             </div>
         </div>
 

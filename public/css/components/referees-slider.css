@@ -1,34 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 
 :root {
-    --color-primary-purple: hsl(263, 55%, 52%);
-    --color-primary-light-gray-500: hsl(217, 19%, 35%);
-    --color-primary-blue: hsl(219, 29%, 14%);
-    --color-primary-white: hsl(0, 0%, 100%);
+    --color-primary-purple: #ffffff;
+    --color-primary-light-gray-500: #ffffff;
+    --color-primary-blue: #ffffff;
+    --color-primary-white: #ffffff;
 
-    --color-neutral-light-gray-300: hsl(0, 0%, 81%);
-    --color-neutral-light-gray-200: hsl(210, 46%, 95%);
+    --color-neutral-light-gray-300: hsl(0, 0%, 0%);
+    --color-neutral-light-gray-200: hsl(0, 0%, 0%);
 
     --font-size-default: 25px;
     --font-primary: "Barlow Semi Condensed", sans-serif;
 }
 /* TESTIMONIAL CONTAINER */
+h2 {
+    font-size: 3rem;
+}
 
 .testimonial-container {
-    /*max-width: 1200px;*/
+    max-width: 1600px;
     margin: auto;
-    height: 400px;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 1.5rem;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 /* TESTIMONIAL */
 
 .testimonial {
-    padding: 1.5rem;
-    border-radius: 0.4rem;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    margin: 1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 /* TESTIMONIAL PROFILE INFO */
@@ -36,7 +41,7 @@
 .testimonial > .profile-info {
     display: flex;
     align-items: center;
-    font-size: 0.7rem;
+    font-size: 1.5rem;
 }
 
 .testimonial .profile-text h2 {
@@ -44,22 +49,22 @@
 }
 
 .testimonial .profile-text p {
-    color: var(--color-neutral-light-gray-300);
+    color: rgb(116, 116, 116);
 }
 
 .testimonial > .profile-info > img {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 /* TESTIMONIAL MAIN TEXT */
 
 .testimonial-text h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    margin: 0.8rem 0;
+    margin: 2.5rem 0;
     color: var(--color-neutral-light-gray-200);
 }
 
@@ -111,7 +116,7 @@
 .testimonial:nth-of-type(5) .profile-text h2,
 .testimonial:nth-of-type(3) .testimonial-text h3,
 .testimonial:nth-of-type(5) .testimonial-text h3 {
-    color: var(--color-primary-blue);
+    color: var(--color-neutral-light-gray-300);
 }
 
 .testimonial:nth-of-type(3) .testimonial-text p,

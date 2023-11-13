@@ -107,8 +107,8 @@
                                     <div class="ag-timeline-card_title">Crafting Code And Mastering Challenges</div>
                                     <div class="ag-timeline-card_desc">
                                         🚀 Driven by an intense love for programming, I delved into the exciting world
-                                        of functional programming with Scala, ZIO, and ScalaJS. I proudly secured my LPI
-                                        Linux certificate 🐧, conquered comprehensive Scala courses on Udemy, and
+                                        of functional programming with Scala, ZIO, and ScalaJS. I proudly secured my <a class="text-link" href="/resources">LPI
+                                        Linux certificate</a> 🐧, conquered comprehensive Scala courses on Udemy, and
                                         autonomously refined my craft. From understanding software architecture to
                                         seamless execution, I celebrated the successful completion of my apprenticeship
                                         in February 2023. 🎉 The adventure continues!
