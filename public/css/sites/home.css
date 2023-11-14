@@ -11,25 +11,7 @@
 
 #self-portrait {
     border-radius: 40px;
-    height: 400px;
-}
-  
-.typing {
-    width: 13ch;
-    animation: typing 2s steps(13), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-size: 4em;
-}
-
-.typing-already-visited {
-    width: 13ch;
-    animation: blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-size: 4em;
+    height: 470px;
 }
   
 @keyframes typing {

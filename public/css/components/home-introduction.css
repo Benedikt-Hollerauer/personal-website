@@ -1,0 +1,52 @@
+.typing {
+    width: 13ch;
+    animation: typing 2s steps(13), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 4em;
+}
+
+#wrapper-introduction {
+    margin-left: 10%;
+}
+
+.typing-already-visited {
+    width: 13ch;
+    animation: blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 4em;
+}
+
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100";
+
+.container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 16%;
+}
+.text {
+    font-weight: 100;
+    font-size: 80px;
+    color: #000000;
+}
+.dud {
+    color: #757575;
+}
+
+.text-already-visited {
+    font-weight: 100;
+    font-size: 80px;
+    color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+    #wrapper-introduction {
+        display: none;
+    }
+}

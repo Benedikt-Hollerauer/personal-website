@@ -1,8 +1,5 @@
 <?php
     use App\Helpers\NavigationArrowDirection;
-    use Illuminate\Support\Facades\Cookie;
-
-    Cookie::queue(Cookie::make('alreadyVisited', '', 20));
 ?>
 <x-site-template>
     <x-slot:siteTitle>{{ config('constants.MY_FULL_NAME') }}</x-slot>
@@ -19,15 +16,7 @@
         />
         <div class="spacer"></div>
         <div class="main center-items">
-            @if(COOKIE::get('alreadyVisited') !== null)
-                <div class="typing-already-visited">
-                    Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
-                </div>
-            @else
-                <div class="typing">
-                    Hi, I`m {{ config('constants.MY_NICK_NAME') }}.
-                </div>
-            @endif
+            <x-home-introduction/>
         </div>
         <div class="self-portrait center-items">
             <x-background-card>

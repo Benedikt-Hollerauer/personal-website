@@ -14,6 +14,7 @@
 @import url("components/about-me-text.css");
 @import url("components/background-card.css");
 @import url("components/referees-slider.css");
+@import url("components/home-introduction.css");
 
 html body {
     margin: 0;
