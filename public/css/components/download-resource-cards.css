@@ -30,9 +30,13 @@
     border-radius: 20px;
   }
   
-  .grid .text {
+  .grid .text-download-cards {
     padding: 10px 20px 20px 30px;
     color: #808285;
+  }
+
+  .text-download-cards {
+    font-size: 14px;
   }
   
   .grid .btn {
