@@ -63,6 +63,7 @@ class TextScramble {
 const phrases = [
     "Hey 👋",
     "I'm Bene 😄",
+    "A passionate developer 💻",
     "Feel free to explore 🗺️"
 ];
 
