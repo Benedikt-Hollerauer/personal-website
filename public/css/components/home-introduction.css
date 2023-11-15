@@ -46,7 +46,24 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .text {
+        font-size: 40px;
+    }
+
+    .text-already-visited {
+        font-size: 40px;
+    }
+
+    .container {
+        margin-left: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     #wrapper-introduction {
-        display: none;
+        margin-left: 0%;
     }
 }
