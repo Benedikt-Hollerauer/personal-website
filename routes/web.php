@@ -83,7 +83,7 @@ Route::get(
 // projects subdomain route group
 Route::domain('projects.' . env('APP_URL'))->group(function() {
     Route::get(
-        'sorting-algorithm-visualizer',
+        '/sorting-algorithm-visualizer',
         [ SortingAlgorithmVisualizerController::class, 'show' ]
-    );
+    )->name('projects.sorting-algorithm-visualizer');
 });
