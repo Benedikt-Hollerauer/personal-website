@@ -54,12 +54,6 @@
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                 </li>
-                <li onclick="window.open('https://www.instagram.com/bene.hl/', '_blank');">
-                    <a class="contact-icon">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
             <hr>
             <div class="copyright">Feel free to leave me a message</div>
         </div>
