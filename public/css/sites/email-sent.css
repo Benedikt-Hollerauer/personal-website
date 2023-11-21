@@ -1,0 +1,23 @@
+.email-sent-container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "top"
+        "main";
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    position: relative;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+    .email-sent-container {
+        height: 100vh;
+        display: grid;
+        grid-template-areas: "main" "top";
+        grid-template-columns: 100%;
+        grid-template-rows: 90% 10%;
+        position: relative;
+        font-size: 40px;
+    }
+}

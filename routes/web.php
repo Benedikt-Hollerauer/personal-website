@@ -36,6 +36,18 @@ Route::post(
     [ ContactController::class, 'store' ]
 )->name('contact.store');
 
+// contact
+Route::get(
+    '/email-sent-success',
+    [ ContactController::class, 'emailSentSuccess' ]
+)->name('contact.email-sent-success');
+
+// contact
+Route::get(
+    '/email-sent-failure',
+    [ ContactController::class, 'emailSentFailure' ]
+)->name('contact.email-sent-failure');
+
 // projects
 Route::get(
     '/projects',
