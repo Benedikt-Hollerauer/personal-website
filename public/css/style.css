@@ -16,6 +16,7 @@
 @import url("components/referees-slider.css");
 @import url("components/home-introduction.css");
 @import url("sites/email-sent.css");
+@import url("sites/resource-downloaded.css");
 
 html body {
     margin: 0;

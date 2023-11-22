@@ -36,13 +36,11 @@ Route::post(
     [ ContactController::class, 'store' ]
 )->name('contact.store');
 
-// contact
 Route::get(
     '/email-sent-success',
     [ ContactController::class, 'emailSentSuccess' ]
 )->name('contact.email-sent-success');
 
-// contact
 Route::get(
     '/email-sent-failure',
     [ ContactController::class, 'emailSentFailure' ]
@@ -91,6 +89,12 @@ Route::get(
     '/downloadEuropass',
     [ ResourcesController::class, 'getEuropassDownload' ]
 )->name('resources.downloadEuropass');
+
+// resources download failure
+Route::get(
+    '/resource-download-failure',
+    [ ResourcesController::class, 'resourceDownloadFailure' ]
+)->name('resources.resource-download-failure');
 
 // projects subdomain route group
 Route::domain('projects.' . env('APP_URL'))->group(function() {

@@ -38,8 +38,6 @@ class ContactController extends Controller {
             );
             return redirect("email-sent-success")
                 ->with("success","Your message has been sent successfully!");
-                //->back()
-                //->with('success', 'Your message has been sent successfully!'); // TODO: maybe add a extra page
         } catch (\Exception $e) {
             return redirect("email-sent-failure")
                 ->with("failure","There was an error sending your message. Please try again!");

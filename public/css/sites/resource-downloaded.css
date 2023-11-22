@@ -1,0 +1,23 @@
+.resource-download-container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "main"
+        "bottom";
+    grid-template-columns: 100%;
+    grid-template-rows: 90% 10%;
+    position: relative;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+    .resource-download-container {
+        height: 100vh;
+        display: grid;
+        grid-template-areas: "main" "bottom";
+        grid-template-columns: 100%;
+        grid-template-rows: 90% 10%;
+        position: relative;
+        font-size: 40px;
+    }
+}
