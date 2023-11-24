@@ -78,7 +78,7 @@ const next = () => {
         fx.setText(phrases.reverse[0])
     } else {
         fx.setText(phrases[counter]).then(() => {
-            setTimeout(next, 3000);
+            setTimeout(next, 2500);
         });
     }
     endCounter = endCounter + 1

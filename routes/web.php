@@ -71,6 +71,11 @@ Route::get(
 )->name('resources.downloadCV');
 
 Route::get(
+    '/downloadGermanCV',
+    [ ResourcesController::class, 'getGermanCVDownload' ]
+)->name('resources.downloadGermanCV');
+
+Route::get(
     '/downloadLinuxCertificate',
     [ ResourcesController::class, 'getLinuxCertificateDownload' ]
 )->name('resources.downloadLinuxCertificate');

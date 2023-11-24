@@ -31,6 +31,10 @@ class ResourcesController extends Controller {
         return self::handleDownload('benedikt-hollerauer-cv.pdf');
     }
 
+    public function getGermanCVDownload() {
+        return self::handleDownload('benedikt-hollerauer-german-cv.pdf');
+    }
+
     public function getLinuxCertificateDownload() {
         return self::handleDownload('linux-essentials-certificate.pdf');
     }
