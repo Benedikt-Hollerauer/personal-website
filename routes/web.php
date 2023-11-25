@@ -101,10 +101,8 @@ Route::get(
     [ ResourcesController::class, 'resourceDownloadFailure' ]
 )->name('resources.resource-download-failure');
 
-// projects subdomain route group
-Route::domain('projects.' . env('APP_URL'))->group(function() {
-    Route::get(
-        '/sorting-algorithm-visualizer',
-        [ SortingAlgorithmVisualizerController::class, 'show' ]
-    )->name('projects.sorting-algorithm-visualizer');
-});
+// Concrete projects
+Route::get(
+    '/sorting-algorithm-visualizer',
+    [ SortingAlgorithmVisualizerController::class, 'show' ]
+)->name('sorting-algorithm-visualizer');

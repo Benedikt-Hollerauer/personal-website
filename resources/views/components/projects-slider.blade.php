@@ -11,7 +11,7 @@
       <div class="blog-slider__content">
         <div class="blog-slider__title">SORTING ALGORITHM VISUALIZER</div>
         <div class="blog-slider__text">📶 The Sorting Algorithm Visualizer project demonstrates various sorting algorithms using higher-order functions in Scala.js. It follows pure functional programming principles, adheres to Test-Driven Development (TDD) and Clean Architecture, providing a visual representation of algorithm functionality. 📊</div>
-        <a href="{{route('projects.sorting-algorithm-visualizer')}}" target="_blank" class="blog-slider__button">Check it out here</a>
+        <a href="/sorting-algorithm-visualizer" target="_blank" class="blog-slider__button">Check it out here</a>
       </div>
     </div>
 
