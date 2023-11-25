@@ -1,6 +1,6 @@
 function changeNavigationArrowImageSource(newImageSource, imageId, rotation) {
     if (newImageSource === "") {
-        newImageSource = "icons/navigation-arrow.svg";
+        newImageSource = "images/navigation-arrow.svg";
     }
 
     const imageElement = document.getElementById(imageId);
@@ -17,7 +17,7 @@ function restoreNavigationArrow(rotation, rotationDegree) {
     );
 
     rotationElement.style.transform = "rotate(" + rotationDegree + "deg)";
-    navigationArrowElement.src = "icons/navigation-arrow.svg";
+    navigationArrowElement.src = "images/navigation-arrow.svg";
 }
 
 function changeIconIfMobile(
@@ -35,7 +35,7 @@ function changeIconIfMobile(
         imageElement.src = newImageSource;
         imageWrapperElement.style.transform = "rotate(0deg)";
     } else {
-        imageElement.src = "icons/navigation-arrow.svg";
+        imageElement.src = "images/navigation-arrow.svg";
         imageWrapperElement.style.transform =
             "rotate(" + rotationDegree + "deg)";
     }

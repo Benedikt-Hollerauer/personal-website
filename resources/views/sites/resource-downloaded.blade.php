@@ -8,6 +8,6 @@
                 {{ $message }}
             </x-background-card>
             <x-navigation-arrow :rotation="NavigationArrowDirection::DOWN" linkLocation="/resources"
-                iconOnHover="'icons/resources.svg'"/>
+                iconOnHover="'images/resources.svg'"/>
         </div>
 </x-site-template>

@@ -13,7 +13,7 @@
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::DOWN"
             linkLocation="/"
-            iconOnHover="'icons/home.svg'"
+            iconOnHover="'images/home.svg'"
         />
     </div>
 </x-site-template>

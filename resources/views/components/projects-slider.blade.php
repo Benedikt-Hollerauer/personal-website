@@ -6,7 +6,7 @@
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
 
-        <img src="icons/sorting-symbolic-logo.svg" alt="Sorting algorithm visualizer symbolic logo">
+        <img src="images/sorting-symbolic-logo.svg" alt="Sorting algorithm visualizer symbolic logo">
       </div>
       <div class="blog-slider__content">
         <div class="blog-slider__title">SORTING ALGORITHM VISUALIZER</div>
@@ -17,7 +17,7 @@
 
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
-        <img src="icons/leetcode-logo.svg" alt="Leetcode icon">
+        <img src="images/leetcode-logo.svg" alt="Leetcode icon">
       </div>
       <div class="blog-slider__content">
         <div class="blog-slider__title">LEETCODE</div>
@@ -28,7 +28,7 @@
 
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
-        <img src="icons/sales-monitoring-symbolic-logo.svg" alt="Sales monitoring symbolic image">
+        <img src="images/sales-monitoring-symbolic-logo.svg" alt="Sales monitoring symbolic image">
       </div>
       <div class="blog-slider__content">
         <div class="blog-slider__title">SALES MONITORING</div>
@@ -39,7 +39,7 @@
 
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
-        <img src="icons/website-symbolic-logo.svg" alt="Personal website symbolic logo">
+        <img src="images/website-symbolic-logo.svg" alt="Personal website symbolic logo">
       </div>
       <div class="blog-slider__content">
         <div class="blog-slider__title">PERSONAL WEBSITE</div>

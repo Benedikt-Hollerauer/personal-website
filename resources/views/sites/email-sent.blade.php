@@ -5,7 +5,7 @@
     <x-slot:siteTitle>Email Sent - {{ config('constants.MY_FULL_NAME') }}</x-slot>
         <div class="email-sent-container">
             <x-navigation-arrow :rotation="NavigationArrowDirection::UP" linkLocation="/contact"
-                iconOnHover="'icons/contact.svg'"/>
+                iconOnHover="'images/contact.svg'"/>
             <x-background-card>
                 {{ $message }}
             </x-background-card>

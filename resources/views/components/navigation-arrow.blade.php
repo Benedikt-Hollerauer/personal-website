@@ -21,7 +21,7 @@
             <img
                 id="navigation-arrow-{{ $rotation->getRotationName() }}"
                 class="navigation-arrow-img"
-                src="icons/navigation-arrow.svg"
+                src="images/navigation-arrow.svg"
                 alt="Navigation Icon"
             />
         </div>

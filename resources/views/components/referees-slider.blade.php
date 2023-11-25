@@ -3,7 +3,7 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img class="quotes" src="icons/quotes-icon.svg" alt="Quotes" />
+            <img class="quotes" src="images/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
                         href="https://www.linkedin.com/in/thomas-h%C3%B6fer-45848352/">Thomas Höfer</a></h2>
@@ -27,7 +27,7 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img class="quotes" src="icons/quotes-icon.svg" alt="Quotes" />
+            <img class="quotes" src="images/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
                         href="https://www.linkedin.com/in/markus-ziegler-29709421a/">Markus Ziegler</a></h2>
@@ -48,7 +48,7 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img class="quotes" src="icons/quotes-icon.svg" alt="  font-size: larger;" />
+            <img class="quotes" src="images/quotes-icon.svg" alt="  font-size: larger;" />
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
                         href="https://www.linkedin.com/in/jannik-meier-206934294/">Jannik Meier</a></h2>
@@ -68,7 +68,7 @@
     <div class="testimonial">
         <!-- PROFILE INFO -->
         <div class="profile-info">
-            <img class="quotes" src="icons/quotes-icon.svg" alt="Quotes" />
+            <img class="quotes" src="images/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
                         href="https://www.linkedin.com/in/kevin-heick-929202285/">Kevin Heick</a></h2>

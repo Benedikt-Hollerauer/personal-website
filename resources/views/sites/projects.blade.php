@@ -6,7 +6,7 @@
         <div class="projects-container">
             <x-site-heading siteHeading="Projects" />
             <x-navigation-arrow :rotation="NavigationArrowDirection::LEFT" linkLocation="/"
-                iconOnHover="'icons/home.svg'" />
+                iconOnHover="'images/home.svg'" />
             <div class="main center-items">
                 <x-projects-slider />
             </div>

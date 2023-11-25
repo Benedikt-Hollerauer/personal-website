@@ -7,12 +7,12 @@
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::UP"
             linkLocation="/resources"
-            iconOnHover="'icons/resources.svg'"
+            iconOnHover="'images/resources.svg'"
         />
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::LEFT"
             linkLocation="/about"
-            iconOnHover="'icons/about.svg'"
+            iconOnHover="'images/about.svg'"
         />
         <div class="spacer"></div>
         <div class="main center-items">
@@ -31,12 +31,12 @@
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::RIGHT"
             linkLocation="/projects"
-            iconOnHover="'icons/projects.svg'"
+            iconOnHover="'images/projects.svg'"
         />
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::DOWN"
             linkLocation="/contact"
-            iconOnHover="'icons/contact.svg'"
+            iconOnHover="'images/contact.svg'"
         />
     </div>
 </x-site-template>

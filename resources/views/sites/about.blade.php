@@ -8,7 +8,7 @@
         <x-navigation-arrow
             :rotation="NavigationArrowDirection::RIGHT"
             linkLocation="/"
-            iconOnHover="'icons/home.svg'"
+            iconOnHover="'images/home.svg'"
         />
         <div class="main scroll-section">
             <x-background-card>
