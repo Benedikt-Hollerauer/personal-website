@@ -17,13 +17,13 @@ class ResourcesController extends Controller {
             return Storage::download($filePath);
         } catch (\Exception $e) {
             return redirect("resource-download-failure")
-                ->with("failure","There was an error downloading. Please try again!");
+                ->with("failure","An error occured while downloading");
         }
     }
 
     public function resourceDownloadFailure(): View {
         return view('sites.resource-downloaded', [
-            'message' => "⛔ An error occured while downloading. ⛔"
+            'message' => "⛔ An error occured while downloading ⛔"
         ]);
     }
     
@@ -36,7 +36,7 @@ class ResourcesController extends Controller {
     }
 
     public function getLinuxCertificateDownload() {
-        return self::handleDownload('linux-essentials-certificate.pdf');
+        return self::handleDownload('benedikt-hollerauer-linux-essentials-certificate.pdf');
     }
 
     public function getScalaEssentialsCertificateDownload() {

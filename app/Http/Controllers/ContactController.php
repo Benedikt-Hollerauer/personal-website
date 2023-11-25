@@ -15,13 +15,13 @@ class ContactController extends Controller {
     
     public function emailSentSuccess(): View {
         return view('sites.email-sent', [
-            'message' => "📨 Your email is on the way. 📨"
+            'message' => "📨 Your email is on the way 📨"
         ]);
     }
 
     public function emailSentFailure(): View {
         return view('sites.email-sent', [
-            'message' => "⛔ An error occured while sending your email. Please try again. ⛔"
+            'message' => "⛔ An error occured while sending your email ⛔"
         ]);
     }
 
@@ -40,7 +40,7 @@ class ContactController extends Controller {
                 ->with("success","Your message has been sent successfully!");
         } catch (\Exception $e) {
             return redirect("email-sent-failure")
-                ->with("failure","There was an error sending your message. Please try again!");
+                ->with("failure","An error occured while sending your email");
         }
     }
 }
