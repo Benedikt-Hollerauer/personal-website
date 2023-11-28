@@ -33,7 +33,7 @@ class ContactMail extends Mailable {
         return new Envelope(
             from: $address,
             replyTo: [ $address ],
-            subject: 'Message from: ' . $this->name
+            subject: 'Message from: ' . $this->name . ' - ' . $this->email
         );
     }
 
