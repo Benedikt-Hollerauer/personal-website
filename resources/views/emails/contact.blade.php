@@ -1,7 +1,13 @@
 <x-mail::message>
-# Contact E-Mail from: {{ $name }}
+# Contact E-Mail from:
+**Name:** {{ $name }}
 
-{{ $message }}
+**Email:** {{ $email }}
 
-{{ config('app.name') }}
+**Message:**
+* {{ $message }}
+
+
+**App:**
+* {{ config('app.name') }} - Personal Website
 </x-mail::message>
