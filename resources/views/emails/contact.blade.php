@@ -5,6 +5,7 @@
 **Email:** {{ $email }}
 
 **Message:**
+
 {{ $message }}
 
 
