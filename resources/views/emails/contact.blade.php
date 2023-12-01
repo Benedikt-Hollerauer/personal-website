@@ -5,7 +5,7 @@
 **Email:** {{ $email }}
 
 **Message:**
-* {{ $message }}
+{{ $message }}
 
 
 **App:**
