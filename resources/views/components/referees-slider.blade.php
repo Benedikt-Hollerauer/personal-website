@@ -58,9 +58,9 @@
 
         <!-- TESTIMONIAL -->
         <div class="testimonial-text">
-            <h3>Currently (2023), I'm in the second year of my apprenticeship, with Bene one year ahead of me, serving
-                as my superior. He always helps me if I have questions regarding our codebase and has taught me the
-                details in an understandable way. Overall, he is a good teacher and developer.</h3>
+            <h3>I started my apprenticeship with Bene at the same time. Working with Bene is great because he is not
+                only a skilled developer but also an excellent member of our team. Bene creates a positive work
+                atmosphere where we can share jokes while maintaining efficient collaboration on our projects.</h3>
         </div>
     </div>
 
@@ -78,10 +78,10 @@
 
         <!-- TESTIMONIAL -->
         <div class="testimonial-text">
-            <h3>
-                I started my apprenticeship with Bene at the same time. Working with Bene is great because he is not
-                only a skilled developer but also an excellent member of our team. Bene creates a positive work
-                atmosphere where we can share jokes while maintaining efficient collaboration on our projects.
+            <h3>Currently (2023), I'm in the second year of my apprenticeship, with Bene one year ahead of me, serving
+                as my superior. He always helps me if I have questions regarding our codebase and has taught me the
+                details in an understandable way. Overall, he is a good teacher and developer.
+                
             </h3>
         </div>
     </div>
