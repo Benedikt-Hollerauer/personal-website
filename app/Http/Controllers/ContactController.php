@@ -27,17 +27,24 @@ class ContactController extends Controller {
 
     public function store(ContactRequest $request): RedirectResponse {
         try {
-            Mail::to(
-                config('constants.MY_EMAIL_ADDRESS')
-            )->send(
-                new ContactMail(
-                    $request->name,
-                    $request->email,
-                    $request->message
-                )
-            );
-            return redirect("email-sent-success")
-                ->with("success","Your message has been sent successfully!");
+            $namesToBlock = [
+                "Robertcof"
+            ];
+            if(in_array($request->name, $namesToBlock)) {
+                throw new \RuntimeException("name is not allowed");
+            } else {
+                Mail::to(
+                    config('constants.MY_EMAIL_ADDRESS')
+                )->send(
+                    new ContactMail(
+                        $request->name,
+                        $request->email,
+                        $request->message
+                    )
+                );
+                return redirect("email-sent-success")
+                    ->with("success","Your message has been sent successfully!");
+            }
         } catch (\Exception $e) {
             return redirect("email-sent-failure")
                 ->with("failure","An error occured while sending your email");
