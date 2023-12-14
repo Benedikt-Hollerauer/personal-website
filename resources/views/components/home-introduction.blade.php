@@ -7,7 +7,7 @@
     @if(COOKIE::get('alreadyVisited') !== null)
     <div class="container">
         <div class="text-already-visited">
-            Feel free to explore 🗺️
+            Feel free to explor 🗺️
         </div>
     </div>
     @else
