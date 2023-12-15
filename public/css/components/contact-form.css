@@ -8,6 +8,11 @@
     height: 40%;
 }
 
+.recaptcha {
+    width: 100%;
+    margin-top: 20px;
+}
+
 .section-header {
     text-align: center;
     margin: 0 auto;
