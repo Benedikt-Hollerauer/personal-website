@@ -25,6 +25,13 @@
                 </div>
             </div>
             <textarea class="form-control" id="form-control-textarea" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+            @if(config("services.recaptcha.key"))
+                <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
+            @endif
+
+            
             <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
                 <div class="alt-send-button">
                     <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>

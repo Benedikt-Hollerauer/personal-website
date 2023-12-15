@@ -27,6 +27,13 @@ class ContactController extends Controller {
 
     public function store(ContactRequest $request): RedirectResponse {
         try {
+            $rules = [
+                "g-recaptcha-response" => "required|recaptcha"
+            ];
+            $validation = $this->validate($request, $rules, [
+                "g-recaptcha-response.recaptcha" => "Captcha verification failed",
+                "g-recaptcha-response.required" => "Please complete the captcha"
+            ]);
             $namesToBlock = [
                 "Robertcof"
             ];
