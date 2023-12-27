@@ -19,13 +19,11 @@
             <x-home-introduction/>
         </div>
         <div class="self-portrait center-items">
-            <x-background-card>
                 <img
                     id="self-portrait"
-                    src="images/benedikt-hollerauer-self-portrait.jpg"
+                    src="images/benedikt-hollerauer-self-portrait-removebg (1).png"
                     alt="Benedikt Hollerauer Self Portrait"
                 >
-            </x-background-card>
         </div>
         <div class="spacer"></div>
         <x-navigation-arrow
