@@ -22,7 +22,7 @@
             <x-background-card>
                 <img
                     id="self-portrait"
-                    src="images/my-notion-avatar-laughing.png"
+                    src="images/benedikt-hollerauer-self-portrait.jpg"
                     alt="Benedikt Hollerauer Self Portrait"
                 >
             </x-background-card>
