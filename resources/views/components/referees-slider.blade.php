@@ -52,7 +52,7 @@
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
                         href="https://www.linkedin.com/in/jannik-meier-206934294/">Jannik Meier</a></h2>
-                <p>Junior Software Developer</p>
+                <p>Software Developer</p>
             </div>
         </div>
 
@@ -72,7 +72,7 @@
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
                         href="https://www.linkedin.com/in/kevin-heick-929202285/">Kevin Heick</a></h2>
-                <p>Junior Software Engineer</p>
+                <p>Software Developer</p>
             </div>
         </div>
 
