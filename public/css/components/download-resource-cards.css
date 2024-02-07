@@ -10,6 +10,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 100%;
   }
 
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");

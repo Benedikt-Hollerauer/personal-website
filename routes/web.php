@@ -95,6 +95,16 @@ Route::get(
     [ ResourcesController::class, 'getEuropassDownload' ]
 )->name('resources.downloadEuropass');
 
+Route::get(
+    '/downloadWorkAndApprenticeshipCertificate',
+    [ ResourcesController::class, 'getWorkAndApprenticeshipCertificateDownload' ]
+)->name('resources.WorkAndApprenticeshipCertificate');
+
+Route::get(
+    '/downloadFinalExamCertificate',
+    [ ResourcesController::class, 'getFinalExamCertificateDownload' ]
+)->name('resources.FinalExamCertificate');
+
 // resources download failure
 Route::get(
     '/resource-download-failure',

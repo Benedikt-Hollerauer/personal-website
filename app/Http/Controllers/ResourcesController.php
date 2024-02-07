@@ -50,4 +50,12 @@ class ResourcesController extends Controller {
     public function getEuropassDownload() {
         return self::handleDownload('benedikt-hollerauer-europass.pdf');
     }
+
+    public function getWorkAndApprenticeshipCertificateDownload() {
+        return self::handleDownload('benedikt-hollerauer-work-and-apprenticeship-certificate.pdf');
+    }
+
+    public function getFinalExamCertificateDownload() {
+        return self::handleDownload('benedikt-hollerauer-final-exam-certificate.pdf');
+    }
 }

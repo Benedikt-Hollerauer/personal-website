@@ -36,6 +36,24 @@
           <a href="/downloadScalaEssentialsCertificate" class="btn">Download</a>
         </div>
       </article>
+      <article>
+
+        <div class="text-download-cards">
+          <h3>💼 Work & Apprenticeship Certificate</h3>
+          <br>
+          <p>This is my work & apprenticeship certificate, where my company described how I worked and what my final project for my apprenticeship was.</p>
+          <a href="/downloadWorkAndApprenticeshipCertificate" class="btn">Download</a>
+        </div>
+      </article>
+      <article>
+
+        <div class="text-download-cards">
+          <h3>📃 The Certificate For My Completed Apprenticeship</h3>
+          <br>
+          <p>Here you can download the certificate for my completed apprenticeship.</p>
+          <a href="/downloadFinalExamCertificate" class="btn">Download</a>
+        </div>
+      </article>
     </main>
   </div>
 </div>
