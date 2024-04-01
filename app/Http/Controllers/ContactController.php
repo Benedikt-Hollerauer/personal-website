@@ -27,7 +27,7 @@ class ContactController extends Controller
     public function emailSentFailure(): View
     {
         return view('sites.email-sent', [
-            'message' => "⛔ An error occured while sending your email ⛔"
+            'message' => "⛔ Please try again or send me a direct email to \n " . config('constants.MY_EMAIL_ADDRESS') . " ⛔"
         ]);
     }
 
