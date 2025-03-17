@@ -3,6 +3,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <div class="blog-slider">
   <div class="blog-slider__wrp swiper-wrapper">
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+
+        <img src="images/ai-trading-bot-logo.svg" alt="Ai Trading Bot symbolic logo">
+      </div>
+      <div class="blog-slider__content">
+        <div class="blog-slider__title">AI TRADING BOT</div>
+        <div class="blog-slider__text">🤖 The AI Trading Bot project automates stock investments using AI, analyzing data and news to identify patterns. It allows users to input an investment amount and manages trades. 📈</div>
+        <a href="https://github.com/Benedikt-Hollerauer/ai-trading-bot" target="_blank" class="blog-slider__button">Check out the code here</a>
+      </div>
+    </div>
+
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
 
