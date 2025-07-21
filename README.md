@@ -48,11 +48,52 @@ A personal website built with Laravel, featuring a portfolio, contact form, proj
    php artisan migrate
    ```
 
+## Running the App with Docker
+
+Follow these steps to run your Laravel app using Docker (Laravel Sail):
+
+1. **Create your `.env` file**
+   - Copy the example file:
+     ```bash
+     cp .env.example .env
+     ```
+   - Edit `.env` as needed. Make sure to set the following (or your preferred port):
+     ```env
+     APP_PORT=89
+     WWWGROUP=1000
+     ```
+
+2. **Install Composer dependencies**
+   ```bash
+   composer install
+   ```
+
+3. **Install Sail (if not already installed)**
+   ```bash
+   composer require laravel/sail --dev
+   php artisan sail:install
+   ```
+
+4. **Build and start Docker containers**
+   ```bash
+   ./vendor/bin/sail up -d
+   ```
+   *(On Windows PowerShell, use `vendor\bin\sail up -d`)*
+
+5. **Generate the application key**
+   ```bash
+   ./vendor/bin/sail artisan key:generate
+   ```
+
+6. **Run database migrations (if needed)**
+   ```bash
+   ./vendor/bin/sail artisan migrate
+   ```
+
+7. **Access the app**
+   - Open your browser and go to: [http://localhost:89](http://localhost:89)
+
+If you change `APP_PORT` in your `.env`, use that port in your browser instead.
+
 ## Usage
-- Access the website at `http://localhost` (or the port specified in your Docker setup).
-- Use the navigation menu to explore the portfolio, projects, and resources.
-- Submit the contact form to send a message (requires mail configuration).
-
-## License
-
-This project is licensed under the MIT license.
+- Access the website at `http://localhost`
