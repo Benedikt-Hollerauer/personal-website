@@ -31,6 +31,16 @@
     grid-area: self-portrait;
 }
 
+.main.center-items {
+    justify-content: center;
+    align-items: center;
+}
+
+.self-portrait.center-items {
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1024px) {
     #self-portrait {
         border-radius: 40px;

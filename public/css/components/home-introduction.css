@@ -8,7 +8,7 @@
 }
 
 #wrapper-introduction {
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .typing-already-visited {
@@ -28,12 +28,18 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 16%;
+    /* margin-left: 16%; */
+    /* max-width: 90%; */
 }
 .text {
     font-weight: 100;
     font-size: 80px;
     color: #000000;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    word-break: break-word;
+    text-align: center;
 }
 .dud {
     color: #757575;
@@ -43,26 +49,38 @@
     font-weight: 100;
     font-size: 80px;
     color: #000000;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    word-break: break-word;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
     .text {
         font-size: 40px;
+        max-width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 
     .text-already-visited {
         font-size: 40px;
+        max-width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 
     .container {
-        margin-left: 0%;
+        /* margin-left: 0%; */
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
+        max-width: 100%;
     }
 
     #wrapper-introduction {
-        margin-left: 0%;
+        /* margin-left: 0%; */
     }
 }
