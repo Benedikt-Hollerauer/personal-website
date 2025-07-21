@@ -14,6 +14,7 @@
             :rotation="NavigationArrowDirection::DOWN"
             linkLocation="/"
             iconOnHover="'images/home.svg'"
+            class="large-navigation-arrow"
         />
     </div>
 </x-site-template>

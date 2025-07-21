@@ -7,10 +7,6 @@
 
   .download-resource-cards-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
   }
 
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
@@ -19,7 +15,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 30px;
-    margin: 20px 30px 20px 20px; /* top, right, bottom, left */
+    margin: 20px 40px 20px 40px; /* top, right, bottom, left */
   }
 
   .grid>article {
@@ -65,7 +61,10 @@
 
   @media screen and (max-width: 1024px) {
     .download-resource-cards-container {
-      margin-top: 0;
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
+      height: 100%;
     }
     .grid {
       margin: 10px 10px 10px 10px;
