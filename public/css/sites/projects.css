@@ -4,7 +4,7 @@
     grid-template-areas:
         "left site-heading"
         "left main"
-        "left .";
+        "left main";
     grid-template-columns: 5% 95%;
     grid-template-rows: 20% 70% 10%;
     position: relative;
