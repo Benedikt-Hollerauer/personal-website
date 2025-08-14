@@ -1,6 +1,14 @@
-document.querySelector('#contact-form').addEventListener('submit', (e) => {
+document.querySelector('#contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
-    e.target.elements.name.value = '';
-    e.target.elements.email.value = '';
-    e.target.elements.message.value = '';
+    
+    grecaptcha.ready(function() {
+        grecaptcha.execute('{{ config("services.recaptcha.v3.key") }}', {
+            action: 'contact',
+            domain: recaptchaDomain
+        })
+        .then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+            e.target.submit();
+        });
+    });
 });

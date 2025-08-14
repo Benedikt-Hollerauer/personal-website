@@ -26,11 +26,11 @@
             </div>
             <textarea class="form-control" id="form-control-textarea" rows="10" placeholder="MESSAGE" name="message" required></textarea>
             <div class="recaptcha center-items">
-                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-                @if(config("services.recaptcha.key"))
-                    <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
-                @endif
+                <script>
+                    var recaptchaDomain = '{{ config('services.recaptcha.v3.domain') }}';
+                </script>
+                <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.v3.key') }}"></script>
+                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
             </div>
             
             <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">

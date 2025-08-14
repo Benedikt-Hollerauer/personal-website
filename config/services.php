@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Third Party Services
@@ -30,9 +29,12 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-    
+
     'recaptcha' => [
-        'key' => env('GOOGLE_RECAPTCHA_KEY'),
-        'secret' => env('GOOGLE_RECAPTCHA_SECRET_KEY')
+        'v3' => [
+            'key' => env('GOOGLE_RECAPTCHA_V3_SITE_KEY'),
+            'secret' => env('GOOGLE_RECAPTCHA_V3_SECRET_KEY'),
+            'domain' => env('RECAPTCHA_DOMAIN', 'localhost'),
+        ],
     ],
 ];
