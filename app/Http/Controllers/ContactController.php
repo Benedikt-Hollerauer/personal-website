@@ -7,8 +7,7 @@ use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Client\Response;
-use Illuminate\Support\Facades\Http;
+use Illuminate\Validation\ValidationException;
 
 class ContactController extends Controller
 {
@@ -33,49 +32,46 @@ class ContactController extends Controller
 
     public function store(ContactRequest $request): RedirectResponse
     {
-        try {
-            $rules = [
-                "g-recaptcha-response" => "required|recaptcha"
-            ];
+        \Log::info('Test log before validation');
+        // Validate recaptcha first
+        $rules = [
+            "g-recaptcha-response" => "required|recaptcha"
+        ];
 
-            $validation = $this->validate($request, $rules, [
-                "g-recaptcha-response.recaptcha" => "Captcha verification failed",
-                "g-recaptcha-response.required" => "Please complete the captcha"
-            ]);
+        // try {
+        //     $validation = $this->validate($request, $rules, [
+        //         "g-recaptcha-response.recaptcha" => "Captcha verification failed",
+        //         "g-recaptcha-response.required" => "Please complete the captcha"
+        //     ]);
+        //     \Log::info('Test log after validation: ' . str($validation));
+        // } catch (ValidationException $e) {
+        //     return redirect("email-sent-failure")
+        //         ->with("failure", "Captcha verification failed. Please try again.");
+        // }
 
-            $namesToBlock = ["Robertcof"];
-
-            if (in_array($request->name, $namesToBlock)) {
-                throw new \RuntimeException("name is not allowed");
-            } else {
-                $recaptchaResponse = $request->input('g-recaptcha-response');
-                $recaptchaScore = $this->verifyRecaptcha($recaptchaResponse);
-
-                if ($recaptchaScore >= 0.8) {
-                    Mail::to(config('constants.MY_EMAIL_ADDRESS'))->send(
-                        new ContactMail($request->name, $request->email, $request->message)
-                    );
-                    return redirect("email-sent-success")
-                        ->with("success", "Your message has been sent successfully!");
-                } else {
-                    return redirect("email-sent-failure")
-                        ->with("failure", "Captcha verification failed. Please try again.");
-                }
-            }
-        } catch (\Exception $e) {
+        // Check for blocked names
+        $namesToBlock = ["Robertcof"];
+        if (in_array($request->name, $namesToBlock)) {
             return redirect("email-sent-failure")
-                ->with("failure", "An error occurred while sending your email");
+                ->with("failure", "This name is not allowed.");
         }
-    }
 
-    private function verifyRecaptcha(string $recaptchaResponse): float
-    {
-        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => config('services.recaptcha.secret'),
-            'response' => $recaptchaResponse
-        ]);
-
-        $data = $response->json();
-        return $data['score'] ?? 0.0;
+        // Try to send the email
+        try {
+            \Log::info('Test log ______________________________________');
+            $email_sending_result = Mail::to(config('constants.MY_EMAIL_ADDRESS'))->send(
+                new ContactMail($request->name, $request->email, $request->message)
+            );
+            \Log::info('Test log email_sending_result');
+            return redirect("email-sent-success")
+                ->with("success", "Your message has been sent successfully!");
+                
+        } catch (\Exception $e) {
+            // Log the error for debugging
+            \Log::error('Email sending failed: ' . $e->getMessage());
+            
+            return redirect("email-sent-failure")
+                ->with("failure", "An error occurred while sending your email. Please try again.");
+        }
     }
 }
