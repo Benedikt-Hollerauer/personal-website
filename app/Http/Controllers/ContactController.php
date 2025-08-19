@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Validation\ValidationException;
+use Log;
 
 class ContactController extends Controller
 {
@@ -32,22 +33,22 @@ class ContactController extends Controller
 
     public function store(ContactRequest $request): RedirectResponse
     {
-        \Log::info('Test log before validation');
         // Validate recaptcha first
         $rules = [
             "g-recaptcha-response" => "required|recaptcha"
         ];
 
-        // try {
-        //     $validation = $this->validate($request, $rules, [
-        //         "g-recaptcha-response.recaptcha" => "Captcha verification failed",
-        //         "g-recaptcha-response.required" => "Please complete the captcha"
-        //     ]);
-        //     \Log::info('Test log after validation: ' . str($validation));
-        // } catch (ValidationException $e) {
-        //     return redirect("email-sent-failure")
-        //         ->with("failure", "Captcha verification failed. Please try again.");
-        // }
+        try {
+            $validation = $this->validate($request, $rules, [
+                "g-recaptcha-response.recaptcha" => "Captcha verification failed",
+                "g-recaptcha-response.required" => "Please complete the captcha"
+            ]);
+            \Log::info('Google recaptcha validation: ' . implode(',', $validation));
+        } catch (ValidationException $e) {
+            \Log::error('Error with validation: ' . $e->getMessage());
+            return redirect("email-sent-failure")
+                ->with("failure", "Captcha verification failed. Please try again.");
+        }
 
         // Check for blocked names
         $namesToBlock = ["Robertcof"];
@@ -58,11 +59,10 @@ class ContactController extends Controller
 
         // Try to send the email
         try {
-            \Log::info('Test log ______________________________________');
             $email_sending_result = Mail::to(config('constants.MY_EMAIL_ADDRESS'))->send(
                 new ContactMail($request->name, $request->email, $request->message)
             );
-            \Log::info('Test log email_sending_result');
+            \Log::info('Email sent successfully from ' . $request->email);
             return redirect("email-sent-success")
                 ->with("success", "Your message has been sent successfully!");
                 

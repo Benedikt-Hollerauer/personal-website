@@ -30,6 +30,13 @@
                     var recaptchaDomain = '{{ config('services.recaptcha.v3.domain') }}';
                 </script>
                 <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.v3.key') }}"></script>
+                <script>
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute('{{ config('services.recaptcha.v3.key') }}', {action: 'contact'}).then(function (token) {
+                            document.getElementById('g-recaptcha-response').value = token;
+                        });
+                    });
+                </script>
                 <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
             </div>
             
