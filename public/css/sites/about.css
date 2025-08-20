@@ -23,7 +23,7 @@
     color: #333;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
     .about-container {
         height: 100vh;
         display: grid;

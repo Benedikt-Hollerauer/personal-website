@@ -18,7 +18,7 @@
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
     .resources-container {
         grid-template-areas: "site-heading" "main" "bottom";
         grid-template-columns: 100%;
