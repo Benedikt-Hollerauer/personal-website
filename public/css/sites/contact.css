@@ -25,7 +25,7 @@
         display: grid;
         grid-template-areas: "site-heading" "main" "top" ;
         grid-template-columns: 100%;
-        grid-template-rows: 15% 75% 10%;
+        grid-template-rows: 10% 80% 10%;
         position: relative;
     }
 }
