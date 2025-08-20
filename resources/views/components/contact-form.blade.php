@@ -40,7 +40,7 @@
                 <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
             </div>
             
-            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <button class="btn btn-primary send-button" style="padding: 0;" id="submit" type="submit" value="SEND">
                 <div class="alt-send-button">
                     <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
                 </div>
