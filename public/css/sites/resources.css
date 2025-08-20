@@ -22,7 +22,7 @@
     .resources-container {
         grid-template-areas: "site-heading" "main" "bottom";
         grid-template-columns: 100%;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: 10% 80% 10%;
     }
     .resources-main-content-wrapper {
         min-height: 0;
