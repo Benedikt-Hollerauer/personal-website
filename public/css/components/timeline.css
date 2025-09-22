@@ -129,7 +129,7 @@ img {
 
 .ag-timeline-card_item {
     display: inline-block;
-    width: 45%;
+    width: 40%;
     margin: -77px 0 0;
     background-color: white;
     opacity: 0;
@@ -143,7 +143,7 @@ img {
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     -moz-transition: -moz-transform 0.5s, opacity 0.5s;
     -o-transition: -o-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.3s, opacity 0.3s;
     position: relative;
 }
 
@@ -177,8 +177,8 @@ img {
     height: 18px;
     width: 18px;
     margin-top: 20px;
-    background-color: #282828;
-    z-index: -1;
+    background-color: black;  /* Changed from #282828 to match card background */
+    z-index: 1;  /* Changed from -1 to ensure it's above the icon background */
     position: absolute;
     top: 0;
     right: 0;
@@ -202,10 +202,77 @@ img {
 
 .ag-timeline-card_img {
     width: 100%;
+    height: 250px; /* Fixed height for consistent cropping */
+    object-fit: cover; /* Crop and scale to fill */
+    object-position: center; /* Center the image */
+}
+
+.ag-timeline-card_img-box {
+    height: 200px;  /* Increased from 180px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+    position: relative;  /* Added to establish stacking context */
+    z-index: 0;
+}
+
+/* Custom styling for each timeline icon */
+.timeline-icon {
+    font-size: 6rem;  /* Increased from 5rem */
+    padding: 3rem;    /* Increased from 2.5rem */
+    border-radius: 50%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Mechanic */
+.timeline-icon.fa-wrench {
+    color: #ffffff;
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    box-shadow: 0 8px 25px rgba(33, 147, 176, 0.4);
+}
+
+/* Warehouse */
+.timeline-icon.fa-warehouse {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    box-shadow: 0 8px 25px rgba(255, 94, 98, 0.4);
+}
+
+/* Code */
+.timeline-icon.fa-code {
+    color: #ffffff;
+    background: linear-gradient(135deg, #4776E6, #8E54E9);
+    box-shadow: 0 8px 25px rgba(71, 118, 230, 0.4);
+}
+
+/* Transition */
+.timeline-icon.fa-arrow-right-arrow-left {
+    color: #ffffff;
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    box-shadow: 0 8px 25px rgba(86, 171, 47, 0.4);
+}
+
+/* Current Role */
+.timeline-icon.fa-laptop-code {
+    color: #ffffff;
+    background: linear-gradient(135deg, #7b4397, #dc2430);
+    box-shadow: 0 8px 25px rgba(123, 67, 151, 0.4);
+}
+
+.timeline-icon:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.ag-timeline-card_img-box:hover {
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 .ag-timeline-card_info {
-    padding: 20px 30px;
+    padding: 20px 30px;  /* Reduced padding */
 }
 
 .ag-timeline-card_title {
@@ -218,8 +285,8 @@ img {
 }
 
 .ag-timeline-card_desc {
-    line-height: 1.45;
-    font-size: 20px;
+    line-height: 1.35;  /* Slightly reduced line height */
+    font-size: 20px;    /* Slightly reduced font size */
     color: black;
 }
 
@@ -268,6 +335,18 @@ img {
     .ag-timeline-card_arrow {
         margin-top: 12px;
     }
+    .timeline-icon {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+
+    .ag-timeline-card_img-box {
+        height: 150px;
+    }
+
+    .ag-timeline-block {
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -277,6 +356,18 @@ img {
     .ag-timeline-card_img {
         height: auto;
         width: auto;
+    }
+    .timeline-icon {
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    .ag-timeline-card_img-box {
+        height: 120px;
+    }
+
+    .timeline-icon:hover {
+        transform: translateY(-3px) scale(1.03);
     }
 }
 
@@ -292,7 +383,16 @@ img {
     }
 }
 
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+    .timeline-icon {
+        font-size: 2.5rem;
+        padding: 1.2rem;
+    }
+
+    .ag-timeline-card_img-box {
+        height: 100px;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 979px) {
     .ag-format-container {
