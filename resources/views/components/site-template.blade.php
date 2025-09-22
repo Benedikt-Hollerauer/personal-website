@@ -9,6 +9,7 @@
             type="image/x-icon"
             href="images/hb-logo-white-transparent.svg" 
         >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <title>{{ $siteTitle }}</title>
     </head>
     <body>

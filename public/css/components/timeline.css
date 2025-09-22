@@ -207,6 +207,67 @@ img {
     object-position: center; /* Center the image */
 }
 
+.ag-timeline-card_img-box {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease;
+}
+
+/* Custom styling for each timeline icon */
+.timeline-icon {
+    font-size: 3.5rem;
+    padding: 2rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+/* Mechanic */
+.timeline-icon.fa-wrench {
+    color: #ffffff;
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    box-shadow: 0 5px 15px rgba(33, 147, 176, 0.3);
+}
+
+/* Warehouse */
+.timeline-icon.fa-warehouse {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    box-shadow: 0 5px 15px rgba(255, 94, 98, 0.3);
+}
+
+/* Code */
+.timeline-icon.fa-code {
+    color: #ffffff;
+    background: linear-gradient(135deg, #4776E6, #8E54E9);
+    box-shadow: 0 5px 15px rgba(71, 118, 230, 0.3);
+}
+
+/* Transition */
+.timeline-icon.fa-arrow-right-arrow-left {
+    color: #ffffff;
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    box-shadow: 0 5px 15px rgba(86, 171, 47, 0.3);
+}
+
+/* Current Role */
+.timeline-icon.fa-laptop-code {
+    color: #ffffff;
+    background: linear-gradient(135deg, #7b4397, #dc2430);
+    box-shadow: 0 5px 15px rgba(123, 67, 151, 0.3);
+}
+
+.timeline-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ag-timeline-card_img-box:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
 .ag-timeline-card_info {
     padding: 20px 30px;
 }
