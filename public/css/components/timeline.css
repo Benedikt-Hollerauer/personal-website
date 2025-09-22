@@ -208,60 +208,61 @@ img {
 }
 
 .ag-timeline-card_img-box {
-    height: 250px;  /* Reduced from 250px */
+    height: 200px;  /* Increased from 180px */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px 8px 0 0;
     transition: all 0.3s ease;
+    background-color: #f8f9fa;
 }
 
 /* Custom styling for each timeline icon */
 .timeline-icon {
-    font-size: 5rem;  /* Increased from 3.5rem */
-    padding: 2.5rem;    /* Increased from 2rem */
+    font-size: 6rem;  /* Increased from 5rem */
+    padding: 3rem;    /* Increased from 2.5rem */
     border-radius: 50%;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 /* Mechanic */
 .timeline-icon.fa-wrench {
     color: #ffffff;
     background: linear-gradient(135deg, #2193b0, #6dd5ed);
-    box-shadow: 0 5px 15px rgba(33, 147, 176, 0.3);
+    box-shadow: 0 8px 25px rgba(33, 147, 176, 0.4);
 }
 
 /* Warehouse */
 .timeline-icon.fa-warehouse {
     color: #ffffff;
     background: linear-gradient(135deg, #ff9966, #ff5e62);
-    box-shadow: 0 5px 15px rgba(255, 94, 98, 0.3);
+    box-shadow: 0 8px 25px rgba(255, 94, 98, 0.4);
 }
 
 /* Code */
 .timeline-icon.fa-code {
     color: #ffffff;
     background: linear-gradient(135deg, #4776E6, #8E54E9);
-    box-shadow: 0 5px 15px rgba(71, 118, 230, 0.3);
+    box-shadow: 0 8px 25px rgba(71, 118, 230, 0.4);
 }
 
 /* Transition */
 .timeline-icon.fa-arrow-right-arrow-left {
     color: #ffffff;
     background: linear-gradient(135deg, #56ab2f, #a8e063);
-    box-shadow: 0 5px 15px rgba(86, 171, 47, 0.3);
+    box-shadow: 0 8px 25px rgba(86, 171, 47, 0.4);
 }
 
 /* Current Role */
 .timeline-icon.fa-laptop-code {
     color: #ffffff;
     background: linear-gradient(135deg, #7b4397, #dc2430);
-    box-shadow: 0 5px 15px rgba(123, 67, 151, 0.3);
+    box-shadow: 0 8px 25px rgba(123, 67, 151, 0.4);
 }
 
 .timeline-icon:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 
 .ag-timeline-card_img-box:hover {
