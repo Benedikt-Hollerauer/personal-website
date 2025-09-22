@@ -14,21 +14,18 @@
                                 <div class="ag-timeline-card_point">2019</div>
                             </div>
                             <div class="ag-timeline-card_meta-box">
-                                <div class="ag-timeline-card_meta">Navigating The German Base Education</div>
+                                <div class="ag-timeline-card_meta">Industrial Mechanic Apprenticeship</div>
                             </div>
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="images/school-illustration.png" class="ag-timeline-card_img" width="640" height="360" alt="School illustration"/>
+                                    <img src="images/school-illustration.png" class="ag-timeline-card_img" width="640" height="250" alt="School illustration"/>
                                 </div>
                                 <div class="ag-timeline-card_info">
-                                    <div class="ag-timeline-card_title">Navigating The German Base Education:</div>
+                                    <div class="ag-timeline-card_title">Industrial Mechanic Apprenticeship</div>
                                     <div class="ag-timeline-card_desc">
-                                        Mastering the intricacies of education within the renowned German school system
-                                        laid the foundation for my future pursuits. 📚🎓 The journey through this
-                                        academic landscape equipped me with the knowledge and discipline to face the
-                                        challenges ahead.
+                                        I started as an industrial mechanic but developed a severe allergy and had to leave the apprenticeship. ⚙️
                                     </div>
                                 </div>
                             </div>
@@ -38,24 +35,21 @@
                     <div class="js-timeline_item ag-timeline_item">
                         <div class="ag-timeline-card_box">
                             <div class="ag-timeline-card_meta-box">
-                                <div class="ag-timeline-card_meta">First Apprenticeship & Unexpected Turns</div>
+                                <div class="ag-timeline-card_meta">Warehouse Worker Bridging Job</div>
                             </div>
                             <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div class="ag-timeline-card_point">2021</div>
+                                <div class="ag-timeline-card_point">2020</div>
                             </div>
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="images/start-of-career-illustration.png" class="ag-timeline-card_img" width="640" height="360" alt="Start of career illustration" />
+                                    <img src="images/start-of-career-illustration.png" class="ag-timeline-card_img" width="640" height="250" alt="Start of career illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
-                                    <div class="ag-timeline-card_title">First Apprenticeship & Unexpected Turns</div>
+                                    <div class="ag-timeline-card_title">Warehouse Worker Bridging Job</div>
                                     <div class="ag-timeline-card_desc">
-                                        ⚙️ I kicked off my career as an industrial mechanic, only to discover an
-                                        unexpected twist due to a job-specific allergy. 💊 Undeterred, I seamlessly
-                                        transitioned into a year-long bridging job, turning what could have been detours
-                                        into valuable learning experiences.
+                                        As a bridging role in the warehouse, I managed stock, handled shipments, and kept operations running smoothly. 📦
                                     </div>
                                 </div>
                             </div>
@@ -65,24 +59,21 @@
                     <div class="js-timeline_item ag-timeline_item">
                         <div class="ag-timeline-card_box">
                             <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div class="ag-timeline-card_point">2022</div>
+                                <div class="ag-timeline-card_point">2021</div>
                             </div>
                             <div class="ag-timeline-card_meta-box">
-                                <div class="ag-timeline-card_meta">The Start Of My Second Apprenticeship</div>
+                                <div class="ag-timeline-card_meta">Full-Stack Software Engineer</div>
                             </div>
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="images/start-of-programming-apprenticeship.jpeg" class="ag-timeline-card_img" width="640" height="360" alt="Start of programming apprenticeship illustration" />
+                                    <img src="images/start-of-programming-apprenticeship.jpeg" class="ag-timeline-card_img" width="640" height="250" alt="Start of programming apprenticeship illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
-                                    <div class="ag-timeline-card_title">The Start Of My Second Apprenticeship</div>
+                                    <div class="ag-timeline-card_title">Full-Stack Software Engineer</div>
                                     <div class="ag-timeline-card_desc">
-                                        🌐 Pivoting towards my true passion, I immersed myself in the world of web
-                                        development during the start of my second apprenticeship. From PHP, JS, to CSS,
-                                        I not only embraced the digital landscape but also improved my professional
-                                        communication skills within my company. 💻🤝
+                                        At boerse.de Group AG, I processed large data sets, built internal tools, and delivered new website features. 💻🤝
                                     </div>
                                 </div>
                             </div>
@@ -92,26 +83,45 @@
                     <div class="js-timeline_item ag-timeline_item">
                         <div class="ag-timeline-card_box">
                             <div class="ag-timeline-card_meta-box">
-                                <div class="ag-timeline-card_meta">Crafting Code And Mastering Challenges</div>
+                                <div class="ag-timeline-card_meta">Career Transition</div>
                             </div>
                             <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div class="ag-timeline-card_point">2023</div>
+                                <div class="ag-timeline-card_point">2024</div>
                             </div>
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="images/love-for-programming.jpeg" class="ag-timeline-card_img" width="640" height="360" alt="Programming / software architecture illustration" />
+                                    <img src="images/love-for-programming.jpeg" class="ag-timeline-card_img" width="640" height="250" alt="Programming / software architecture illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
-                                    <div class="ag-timeline-card_title">Crafting Code And Mastering Challenges</div>
+                                    <div class="ag-timeline-card_title">Career Transition</div>
                                     <div class="ag-timeline-card_desc">
-                                        🚀 Driven by an intense love for programming, I delved into the exciting world
-                                        of functional programming with Scala, ZIO, and ScalaJS. I proudly secured my <a class="text-link" href="/resources">LPI
-                                        Linux certificate</a> 🐧, conquered comprehensive Scala courses on Udemy, and
-                                        autonomously refined my craft. From understanding software architecture to
-                                        seamless execution, I celebrated the successful completion of my apprenticeship
-                                        in February 2023. 🎉 The adventure continues!
+                                        I explored modern software practices and prepared for my next challenge. 🔄
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_arrow"></div>
+                        </div>
+                    </div>
+                    <div class="js-timeline_item ag-timeline_item">
+                        <div class="ag-timeline-card_box">
+                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                <div class="ag-timeline-card_point">2024</div>
+                            </div>
+                            <div class="ag-timeline-card_meta-box">
+                                <div class="ag-timeline-card_meta">Software Engineer</div>
+                            </div>
+                        </div>
+                        <div class="ag-timeline-card_item">
+                            <div class="ag-timeline-card_inner">
+                                <div class="ag-timeline-card_img-box">
+                                    <img src="images/start-of-programming-apprenticeship.jpeg" class="ag-timeline-card_img" width="640" height="250" alt="Start of programming apprenticeship illustration" />
+                                </div>
+                                <div class="ag-timeline-card_info">
+                                    <div class="ag-timeline-card_title">Software Engineer</div>
+                                    <div class="ag-timeline-card_desc">
+                                        At Braintower Technologies GmbH / teccle group, I’m leading Talend-to-Fabric migration, automating ETL workflows, and integrating key APIs. 🚀
                                     </div>
                                 </div>
                             </div>
