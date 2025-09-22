@@ -20,7 +20,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-14.png" class="ag-timeline-card_img" width="640" height="250" alt="Industrial mechanic illustration"/>
+                                    <img src="images/timeline/mechanic.svg" class="ag-timeline-card_img" width="640" height="250" alt="Industrial mechanic illustration"/>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Industrial Mechanic Apprenticeship</div>
@@ -44,7 +44,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="250" alt="Warehouse operations illustration" />
+                                    <img src="images/timeline/warehouse.svg" class="ag-timeline-card_img" width="640" height="250" alt="Warehouse operations illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Warehouse Worker Bridging Job</div>
@@ -68,7 +68,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-12.png" class="ag-timeline-card_img" width="640" height="250" alt="Software development illustration" />
+                                    <img src="images/timeline/developer-1.svg" class="ag-timeline-card_img" width="640" height="250" alt="Software development illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Full-Stack Software Engineer</div>
@@ -92,7 +92,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-11.png" class="ag-timeline-card_img" width="640" height="250" alt="Career transition illustration" />
+                                    <img src="images/timeline/transition.svg" class="ag-timeline-card_img" width="640" height="250" alt="Career transition illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Career Transition</div>
@@ -116,7 +116,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-10.png" class="ag-timeline-card_img" width="640" height="250" alt="Modern software engineering illustration" />
+                                    <img src="images/timeline/developer-2.svg" class="ag-timeline-card_img" width="640" height="250" alt="Modern software engineering illustration" />
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Software Engineer</div>
