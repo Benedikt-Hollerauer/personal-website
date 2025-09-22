@@ -177,8 +177,8 @@ img {
     height: 18px;
     width: 18px;
     margin-top: 20px;
-    background-color: #282828;
-    z-index: -1;
+    background-color: black;  /* Changed from #282828 to match card background */
+    z-index: 1;  /* Changed from -1 to ensure it's above the icon background */
     position: absolute;
     top: 0;
     right: 0;
@@ -215,6 +215,8 @@ img {
     border-radius: 8px 8px 0 0;
     transition: all 0.3s ease;
     background-color: #f8f9fa;
+    position: relative;  /* Added to establish stacking context */
+    z-index: 0;
 }
 
 /* Custom styling for each timeline icon */
