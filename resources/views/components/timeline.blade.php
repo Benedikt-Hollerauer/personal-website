@@ -20,7 +20,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <i class="fas fa-wrench fa-4x timeline-icon"></i>
+                                    <span class="timeline-icon">🛠️</span>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Industrial Mechanic Apprenticeship</div>
@@ -44,7 +44,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <i class="fas fa-warehouse fa-4x timeline-icon"></i>
+                                    <span class="timeline-icon">📦</span>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Warehouse Worker Bridging Job</div>
@@ -68,7 +68,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <i class="fas fa-code fa-4x timeline-icon"></i>
+                                    <span class="timeline-icon">🧑‍💻</span>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Full-Stack Software Engineer</div>
@@ -92,7 +92,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <i class="fas fa-arrow-right-arrow-left fa-4x timeline-icon"></i>
+                                    <span class="timeline-icon">🔄</span>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Career Transition</div>
@@ -116,7 +116,7 @@
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
                                 <div class="ag-timeline-card_img-box">
-                                    <i class="fas fa-laptop-code fa-4x timeline-icon"></i>
+                                    <span class="timeline-icon">💻</span>
                                 </div>
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Software Engineer</div>

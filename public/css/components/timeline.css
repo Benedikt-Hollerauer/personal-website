@@ -208,23 +208,43 @@ img {
 }
 
 .ag-timeline-card_img-box {
-    height: 200px;  /* Increased from 180px */
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px 8px 0 0;
-    transition: all 0.3s ease;
-    background-color: #f8f9fa;
-    position: relative;  /* Added to establish stacking context */
+    position: relative;
     z-index: 0;
 }
 
-/* Custom styling for each timeline icon */
+/* Custom backgrounds for each timeline stage */
+.ag-timeline_item:nth-child(1) .ag-timeline-card_img-box {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+}
+
+.ag-timeline_item:nth-child(2) .ag-timeline-card_img-box {
+    background: linear-gradient(135deg, #FF8008, #FFC837);
+}
+
+.ag-timeline_item:nth-child(3) .ag-timeline-card_img-box {
+    background: linear-gradient(135deg, #834d9b, #d04ed6);
+}
+
+.ag-timeline_item:nth-child(4) .ag-timeline-card_img-box {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+}
+
+.ag-timeline_item:nth-child(5) .ag-timeline-card_img-box {
+    background: linear-gradient(135deg, #4776E6, #8E54E9);
+}
+
 .timeline-icon {
-    font-size: 6rem;  /* Increased from 5rem */
-    padding: 3rem;    /* Increased from 2.5rem */
-    border-radius: 50%;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Mechanic */
@@ -263,8 +283,8 @@ img {
 }
 
 .timeline-icon:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    transform: none;  /* Removed hover effect */
+    box-shadow: none;
 }
 
 .ag-timeline-card_img-box:hover {
@@ -336,8 +356,7 @@ img {
         margin-top: 12px;
     }
     .timeline-icon {
-        font-size: 4rem;
-        padding: 2rem;
+        font-size: 5rem;  /* Increased from 3rem */
     }
 
     .ag-timeline-card_img-box {
@@ -358,8 +377,7 @@ img {
         width: auto;
     }
     .timeline-icon {
-        font-size: 3rem;
-        padding: 1.5rem;
+        font-size: 4rem;  /* Increased from 2.5rem */
     }
 
     .ag-timeline-card_img-box {
@@ -367,7 +385,8 @@ img {
     }
 
     .timeline-icon:hover {
-        transform: translateY(-3px) scale(1.03);
+        transform: none;  /* Removed hover effect */
+        box-shadow: none;
     }
 }
 
@@ -385,8 +404,7 @@ img {
 
 @media only screen and (max-width: 479px) {
     .timeline-icon {
-        font-size: 2.5rem;
-        padding: 1.2rem;
+        font-size: 3.5rem;  /* Increased from 2rem */
     }
 
     .ag-timeline-card_img-box {
