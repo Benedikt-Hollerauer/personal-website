@@ -47,6 +47,10 @@
         height: auto;
     }
 
+    .self-portrait.center-items {
+        margin: 30px;
+    }
+
     .home-container {
         height: 100vh;
         display: grid;
