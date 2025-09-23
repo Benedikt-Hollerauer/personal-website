@@ -62,13 +62,13 @@
                 $(window).scrollTop();
             n = agPosY - a + agOuterHeight / 2;
             i <= agPosY + agOuterHeight / 2 && (n = i - a);
-            agTimelineLineProgress.css({ height: n + "px" });
+            agTimelineLineProgress.css({ height: n + 100 + "px" });
 
             agTimelineItem.each(function () {
                 var agTop = $(this).find(agTimelinePoint).offset().top;
 
                 agTop + agPosY - $(window).scrollTop() <
-                agPosY + 0.5 * agOuterHeight
+                agPosY + 0.5 * agOuterHeight + 100  // Added 100px offset to match progress line
                     ? $(this).addClass("js-ag-active")
                     : $(this).removeClass("js-ag-active");
             });
