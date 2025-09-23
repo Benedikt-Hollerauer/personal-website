@@ -101,8 +101,53 @@
     <div class="card_image">
       <img src="images/rust-logo.svg" alt="Docker Logo" />
     </div>
-    <!--<div class="card_title title-white">
-      <p>Docker</p>
-    </div>-->
+  </a>
+
+  <a href="https://git-scm.com/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/git-logo.svg" alt="Git Logo" />
+    </div>
+  </a>
+
+  <a href="https://www.python.org/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/python-logo.svg" alt="Python Logo" />
+    </div>
+  </a>
+
+  <a href="https://aws.amazon.com/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/aws-logo.svg" alt="AWS Logo" />
+    </div>
+  </a>
+
+  <a href="https://kubernetes.io/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/kubernetes-logo.svg" alt="Kubernetes Logo" />
+    </div>
+  </a>
+
+  <a href="https://reactjs.org/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/react-logo.svg" alt="React Logo" />
+    </div>
+  </a>
+
+  <a href="https://www.mongodb.com/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/mongodb-logo.svg" alt="MongoDB Logo" />
+    </div>
+  </a>
+
+  <a href="https://redis.io/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/redis-logo.svg" alt="Redis Logo" />
+    </div>
+  </a>
+
+  <a href="https://redis.io/" target="_blank" class="card 4">
+    <div class="card_image">
+      <img src="images/redis-logo.svg" alt="Redis Logo" />
+    </div>
   </a>
 </div>

@@ -36,5 +36,6 @@
     .section-heading {
         padding-left: 0px;
         padding-right: 0px;
+        text-transform: none;
     }
 }
