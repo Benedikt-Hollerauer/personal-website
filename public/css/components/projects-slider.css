@@ -177,26 +177,29 @@
   font-weight: 500;
 }
 .blog-slider__title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   color: #0d0925;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
+  line-height: 1.4;
 }
 .blog-slider__text {
   color: #4e4a67;
-  margin-bottom: 30px;
-  line-height: 1.5em;
+  margin-bottom: 35px;
+  line-height: 1.7em;
   margin-right: 50px;
+  font-size: 17px;
 }
 .blog-slider__button {
   display: inline-flex;
   background-image: linear-gradient(147deg, #78b6ff 0%, #3b7dd4 74%);
-  padding: 15px 35px;
+  padding: 22px 42px;
   border-radius: 50px;
   color: #fff;
   box-shadow: rgba(67, 71, 85, 0.35) 0px 0px 0.5em, rgba(90, 125, 188, 0.15) 0px 0.35em 1.2em;
   text-decoration: none;
   font-weight: 500;
+  font-size: 17px;
   justify-content: center;
   text-align: center;
   letter-spacing: 1px;
