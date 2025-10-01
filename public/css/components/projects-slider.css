@@ -225,17 +225,21 @@
   bottom: auto !important;
   transform: translateY(-50%);
 }
+
 @media screen and (max-width: 768px) {
   .blog-slider__pagination {
+    position: absolute;
     transform: translateX(-50%);
     left: 50% !important;
-    top: 440px;
+    bottom: -40px; /* Positions bullets beneath slider */
+    top: auto !important;
     width: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
+
 .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 8px 0;
 }
@@ -263,5 +267,43 @@
   .blog-slider__pagination .swiper-pagination-bullet-active {
     height: 11px;
     width: 30px;
+  }
+}
+
+/* Mobile card positioning - fixed and centered */
+@media screen and (max-width: 768px) {
+  .blog-slider {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    min-height: 500px;
+    height: auto;
+    margin: 0 !important;
+    width: 90% !important;
+    max-width: 90% !important;
+    z-index: 1000;
+  }
+}
+
+/* Pagination outside card at bottom of screen */
+@media screen and (max-width: 768px) {
+  .blog-slider__pagination {
+    position: fixed !important;
+    bottom: 50px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: auto !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    z-index: 1001 !important;
+  }
+}
+
+/* Prevent body scrolling */
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden !important;
   }
 }
