@@ -18,12 +18,11 @@
 
     <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">
-        <img src="images/confluence-logo.svg" alt="Leetcode icon">
+        <img src="images/confluence-logo.svg" alt="Confluence logo">
       </div>
       <div class="blog-slider__content">
         <div class="blog-slider__title">AUTOMATED CONFLUENCE CLOUD EXPORT</div>
         <div class="blog-slider__text">🔄 The Automated Confluence Cloud Export automates documentation backup using Python and Playwright. Built with functional programming patterns, RPM packaging, Systemd timers, and GitLab CI/CD pipelines for reliable scheduled exports. 📁</div>
-        <!--<a href="https://github.com/Benedikt-Hollerauer/leetcode" target="_blank" class="blog-slider__button">Check out the code here</a>-->
       </div>
     </div>
 
@@ -36,6 +35,18 @@
         <div class="blog-slider__title">SORTING ALGORITHM VISUALIZER</div>
         <div class="blog-slider__text">📶 The Sorting Algorithm Visualizer project demonstrates various sorting algorithms using higher-order functions in Scala.js. It follows pure functional programming principles, adheres to Test-Driven Development (TDD) and Clean Architecture, providing a visual representation of algorithm functionality. 📊</div>
         <a href="/sorting-algorithm-visualizer" target="_blank" class="blog-slider__button">Check it out here</a>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+
+        <img src="images/github-logo.svg" alt="GitHub logo">
+      </div>
+      <div class="blog-slider__content">
+        <div class="blog-slider__title">WANNA SEE MORE?</div>
+        <div class="blog-slider__text">📂 I have additional projects available for exploration. Check them out on my GitHub if you're interested. 🖥️</div>
+        <a href="https://github.com/Benedikt-Hollerauer" target="_blank" class="blog-slider__button">Check them out here</a>
       </div>
     </div>
 
