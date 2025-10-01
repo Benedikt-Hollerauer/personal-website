@@ -277,7 +277,7 @@
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    min-height: 500px;
+    min-height: 70%;
     height: auto;
     margin: 0 !important;
     width: 90% !important;
