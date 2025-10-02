@@ -21,7 +21,7 @@
         <div class="self-portrait center-items">
                 <img
                     id="self-portrait"
-                    src="images/croatia-portrait-rm-bg-cropped.jpg"
+                    src="images/croatia-portrait-rm-bg-cropped-enhanced.png"
                     alt="Benedikt Hollerauer Self Portrait"
                 >
         </div>
