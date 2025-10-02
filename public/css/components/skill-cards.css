@@ -53,6 +53,41 @@
   color: black;
 }
 
+/* More Skills Card - Circular */
+.card.more-skills {
+  border-radius: 50%;
+  background: linear-gradient(147deg, #78b6ff 0%, #3b7dd4 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.more-skills .card_image {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.card.more-skills .more-skills-content {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.card.more-skills .plus-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.card.more-skills .more-text {
+  font-size: 16px;
+  margin: 0;
+}
+
 /* Tooltip Styles */
 .tooltip {
   position: absolute;
