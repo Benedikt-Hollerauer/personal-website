@@ -34,13 +34,6 @@
     <div class="tooltip">Docker</div>
   </a>
   
-  <a href="https://about.gitlab.com/topics/ci-cd" target="_blank" class="card 3">
-    <div class="card_image">
-      <img src="images/ci-cd-icon.svg" alt="CI/CD Logo" />
-    </div>
-    <div class="tooltip">CI/CD</div>
-  </a>
-  
   <a href="https://rust-lang.org" target="_blank" class="card 3">
     <div class="card_image">
       <img src="images/rust-logo.svg" alt="Rust Logo" />
@@ -48,11 +41,18 @@
     <div class="tooltip">Rust</div>
   </a>
   
-  <a href="https://git-scm.com" target="_blank" class="card 4">
+  <a href="https://www.scala-lang.org" target="_blank" class="card 4">
     <div class="card_image">
-      <img src="images/git-logo.svg" alt="Git Logo" />
+      <img src="images/scala-logo.svg" alt="Scala Logo" />
     </div>
-    <div class="tooltip">Git</div>
+    <div class="tooltip">Scala</div>
+  </a>
+
+  <a href="https://about.gitlab.com/topics/ci-cd" target="_blank" class="card 3">
+    <div class="card_image">
+      <img src="images/ci-cd-icon.svg" alt="CI/CD Logo" />
+    </div>
+    <div class="tooltip">CI/CD</div>
   </a>
   
   <a href="https://www.mysql.com" target="_blank" class="card 4">
