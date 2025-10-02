@@ -1,4 +1,4 @@
-<div class="cards-list">
+<div class="cards-list center-items">
   <a href="https://dev.to/adityapratapbh1/principles-of-robust-software-architecture-design-building-strong-foundations-cmh" target="_blank" class="card 1">
     <div class="card_image">
       <img src="images/software-engineering-logo.svg" alt="Robust Software Engineering Logo" />
