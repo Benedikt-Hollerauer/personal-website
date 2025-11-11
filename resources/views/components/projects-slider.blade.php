@@ -21,8 +21,8 @@
         <img src="images/confluence-logo.svg" alt="Confluence logo">
       </div>
       <div class="blog-slider__content">
-        <div class="blog-slider__title">AUTOMATED CONFLUENCE CLOUD EXPORT</div>
-        <div class="blog-slider__text">🔄 The Automated Confluence Cloud Export automates documentation backup using Python and Playwright. Built with functional programming patterns, RPM packaging, Systemd timers, and GitLab CI/CD pipelines for reliable scheduled exports. 📁</div>
+        <div class="blog-slider__title">AUTOMATED CLOUD DOCUMENTATION EXPORT</div>
+        <div class="blog-slider__text">🔄 The Automated cloud documentation platform Export automates documentation backup using Python and Playwright. Built with functional programming patterns, RPM packaging, Systemd timers, and GitLab CI/CD pipelines for reliable scheduled exports. 📁</div>
       </div>
     </div>
 
