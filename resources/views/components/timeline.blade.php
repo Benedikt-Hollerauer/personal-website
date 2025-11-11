@@ -121,7 +121,7 @@
                                 <div class="ag-timeline-card_info">
                                     <div class="ag-timeline-card_title">Software Engineer</div>
                                     <div class="ag-timeline-card_desc">
-                                        At Braintower Technologies GmbH / teccle group, I’m leading Talend-to-Fabric migration, automating ETL workflows, and integrating key APIs. 🚀
+                                        At Braintower Technologies GmbH / teccle group, I’m leading the primary middleware tool migration, automating ETL workflows, and integrating key APIs. 🚀
                                     </div>
                                 </div>
                             </div>
