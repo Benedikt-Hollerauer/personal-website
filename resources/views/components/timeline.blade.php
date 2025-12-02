@@ -139,7 +139,8 @@
                         </div>
                         <div class="ag-timeline-card_item">
                             <div class="ag-timeline-card_inner">
-                                <div class="ag-timeline-card_img-box">
+                                <!-- Manual fix because of CSS issue in timeline.css -->
+                                <div class="ag-timeline-card_img-box" style="background: linear-gradient(135deg, #be3760ff, #eb64a3ff);">
                                     <span class="timeline-icon">🎯</span>
                                 </div>
                                 <div class="ag-timeline-card_info">
