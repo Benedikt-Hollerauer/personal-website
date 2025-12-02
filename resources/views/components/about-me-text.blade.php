@@ -6,6 +6,8 @@
         <br>
         <p>I love turning ideas into solid, well-tested software that actually works. I specialize in functional programming and I'm genuinely fascinated by software architecture and design patterns. 🛠️💡</p>
         <br>
+        <p>My professional mission is to redefine how software is built, making professionalism, reliability and innovation the norm. 🧭</p>
+        <br>
         <p>I'm always learning something new and honestly enjoy the challenge when things get complex. I work best with good people around me - there's nothing like a solid team tackling problems together. 🤝️</p>
 		<br>
         <p>Feel free to check out my website if you're curious about what I've been working on, or just connect with me on social media. 📱</p>
