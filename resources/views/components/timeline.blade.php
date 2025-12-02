@@ -128,6 +128,30 @@
                             <div class="ag-timeline-card_arrow"></div>
                         </div>
                     </div>
+                    <div class="js-timeline_item ag-timeline_item">
+                        <div class="ag-timeline-card_box">
+                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                <div class="ag-timeline-card_point">2025</div>
+                            </div>
+                            <div class="ag-timeline-card_meta-box">
+                                <div class="ag-timeline-card_meta">Software Engineer, Founder</div>
+                            </div>
+                        </div>
+                        <div class="ag-timeline-card_item">
+                            <div class="ag-timeline-card_inner">
+                                <div class="ag-timeline-card_img-box">
+                                    <span class="timeline-icon">🎯</span>
+                                </div>
+                                <div class="ag-timeline-card_info">
+                                    <div class="ag-timeline-card_title">Software Engineer, Founder</div>
+                                    <div class="ag-timeline-card_desc">
+                                        At ByteOffice, I'm building my own software development firm, crafting custom solutions for clients and publishing apps like Grow Log. 🌟
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_arrow"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
