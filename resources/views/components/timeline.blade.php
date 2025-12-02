@@ -130,11 +130,11 @@
                     </div>
                     <div class="js-timeline_item ag-timeline_item">
                         <div class="ag-timeline-card_box">
-                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                                <div class="ag-timeline-card_point">2025</div>
-                            </div>
                             <div class="ag-timeline-card_meta-box">
                                 <div class="ag-timeline-card_meta">Software Engineer, Founder</div>
+                            </div>
+                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                <div class="ag-timeline-card_point">2025</div>
                             </div>
                         </div>
                         <div class="ag-timeline-card_item">
