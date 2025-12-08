@@ -71,18 +71,14 @@
             <img class="quotes" src="images/quotes-icon.svg" alt="Quotes" />
             <div class="profile-text">
                 <h2 class="name"><a class="text-link" target="_blank"
-                        href="https://www.linkedin.com/in/kevin-heick-929202285/">Kevin Heick</a></h2>
+                        href="https://www.linkedin.com/in/basit-rehman-66b7081b5/">Basit Rehman</a></h2>
                 <p>Software Developer</p>
             </div>
         </div>
 
         <!-- TESTIMONIAL -->
         <div class="testimonial-text">
-            <h3>Currently (2023), I'm in the second year of my apprenticeship, with Bene one year ahead of me, serving
-                as my superior. He always helps me if I have questions regarding our codebase and has taught me the
-                details in an understandable way. Overall, he is a good teacher and developer.
-                
-            </h3>
+            <h3>I was Benes mentor at Braintower Technologies GmbH and we got along very well. He was very quick in understanding our tech stack and helped tremendously in maintaining our middleware tool and replacing it with a modern alternative.</h3>
         </div>
     </div>
 </div>
